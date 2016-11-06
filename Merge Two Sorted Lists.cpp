@@ -9,6 +9,7 @@
  * };
  */
 //迭代版
+//时间复杂度为O(min(m,n))，空间复杂度为O(1)
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
