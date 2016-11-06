@@ -1,5 +1,5 @@
 //Reverse Linked List
-//遍历链表，依次往前反转即可，分为迭代版和递归版两种
+//遍历链表，依次往前反转即可，解法分迭代版和递归版两种
 /**
  * Definition for singly-linked list.
  * struct ListNode {
