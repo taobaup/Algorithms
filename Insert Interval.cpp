@@ -32,7 +32,6 @@ public:
 				it = intervals.erase(it);
 			}
 		}
-
 		intervals.insert(intervals.end(), newInterval);
 
 		return intervals;
