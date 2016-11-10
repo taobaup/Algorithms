@@ -1,7 +1,7 @@
 //Insert Interval 
 //若newInterval.end < it->start，则插入it之前 
 //若newInterval.start > it->end，则继续遍历 
-//否则，取min左跟max右取代原先间隔
+//否则，取min左跟max右取代原先区间
 /**
  * Definition for an interval.
  * struct Interval {
