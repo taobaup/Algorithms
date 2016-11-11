@@ -37,3 +37,32 @@ public:
 		return intervals;
 	}
 };
+//另：
+class Solution {
+public:
+	vector<Interval> insert(vector<Interval>& intervals, Interval newInterval) {
+		vector<Interval> result(1, newInterval);
+
+		if (intervals.empty())
+			return result;
+
+		for (auto &temp : intervals)
+		{
+			newInterval = result.back();
+			if (temp.end < newInterval.start)
+			{
+				result.back() = temp;
+				result.push_back(newInterval);
+			}
+			else if (temp.start > newInterval.end)
+				result.push_back(temp);
+			else
+			{
+				result.back().start = min(temp.start, newInterval.start);
+				result.back().end = max(temp.end, newInterval.end);
+			}
+		}
+
+		return result;
+	}
+};
