@@ -42,3 +42,40 @@ public:
 		return result;
 	}
 };
+//另外：
+/**
+ * Definition for an interval.
+ * struct Interval {
+ *     int start;
+ *     int end;
+ *     Interval() : start(0), end(0) {}
+ *     Interval(int s, int e) : start(s), end(e) {}
+ * };
+ */
+class Solution {
+public:
+	vector<Interval> merge(vector<Interval>& intervals) {
+		vector<Interval> result;
+
+		if (intervals.empty())
+			return result;
+
+		sort(intervals.begin(),intervals.end(),[](Interval &a,Interval &b){
+			return a.start < b.start;
+		});
+
+		for (auto &temp : intervals)
+		{
+			if (result.empty() || temp.start > result.back().end)
+				result.push_back(temp);
+			else
+			{
+				auto &mid = result.back();
+				mid.start = min(mid.start, temp.start);
+				mid.end = max(mid.end, temp.end);
+			}
+		}
+
+		return result;
+	}
+};
