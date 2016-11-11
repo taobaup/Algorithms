@@ -13,4 +13,5 @@ public:
 		}
 
 		return result;
+	}
 };
