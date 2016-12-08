@@ -39,7 +39,7 @@ public:
 		const int row = array.size(), column = array[0].size();
 		int i = row - 1, j = 0;
 
-		while(i>=0&&j<=column-1)
+		while (i >= 0 && j <= column - 1)
 		{
 			if (array[i][j] == target)
 				return true;
