@@ -5,6 +5,7 @@
 中序遍历序列中对应的左子树的中序遍历序列为in_first, in_left_last
 前序遍历序列中对应的右子树的前序遍历序列为pre_left_last, pre_last
 中序遍历序列中对应的右子树的中序遍历序列为next(in_left_last), in_last
+然后递归处理
 /**
 * Definition for a binary tree node.
 * struct TreeNode {
