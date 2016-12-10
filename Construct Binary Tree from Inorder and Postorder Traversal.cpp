@@ -5,6 +5,7 @@
 后序遍历序列中对应的左子树的后序遍历序列为post_first, post_left_last
 中序遍历序列中对应的右子树的中序遍历序列为next(in_left_last), in_last
 后序遍历序列中对应的右子树的后序遍历序列为post_left_last, prev(post_last)
+然后递归处理
 /**
 * Definition for a binary tree node.
 * struct TreeNode {
