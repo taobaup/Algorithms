@@ -47,6 +47,7 @@ public:
 		return result;
 	}
 };
+
 //解法2
 class Solution {
 public:
@@ -68,6 +69,7 @@ public:
 		return result;
 	}
 };
+
 //解法3
 class Solution {
 public:
@@ -88,6 +90,7 @@ public:
 		return result;
 	}
 };
+
 //解法4
 class Solution {
 public:
