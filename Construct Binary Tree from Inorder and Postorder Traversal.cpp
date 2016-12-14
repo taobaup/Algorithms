@@ -1,3 +1,8 @@
+题目：Construct Binary Tree from Inorder and Postorder Traversal
+即：中/后序遍历序列重建二叉树
+
+题意：输入某二叉树的中序遍历和后序遍历的结果，请重建出该二叉树。
+
 解题思路：取出后序遍历序列最后一个结点的值，即根结点的值
 在中序遍历序列中找出根结点的位置，计算distance(in_first, in_left_last)为len
 则post_left_last = next(post_first, len)
@@ -6,6 +11,7 @@
 中序遍历序列中对应的右子树的中序遍历序列为next(in_left_last), in_last
 后序遍历序列中对应的右子树的后序遍历序列为post_left_last, prev(post_last)
 然后递归处理
+
 /**
 * Definition for a binary tree node.
 * struct TreeNode {
