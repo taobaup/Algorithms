@@ -18,7 +18,7 @@ public:
         		cur = cur->next;
         	if(pre->next != cur)
         		pre->next = cur->next;
-        	// 主要不要遗漏else
+        	// 注意不要遗漏else
         	// 否则会出错，如 [1,2,3,3,4,4,5] 会得到 [1,2,4,4,5]
         	else
         		pre = pre->next;
