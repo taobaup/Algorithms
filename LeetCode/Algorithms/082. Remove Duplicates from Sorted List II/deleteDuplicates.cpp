@@ -8,6 +8,9 @@ struct ListNode {
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
+        if(head == NULL || head->next == NULL)
+            return head;
+
         ListNode *dummy = new ListNode(INT_MIN);
         dummy->next = head;
 
