@@ -56,7 +56,7 @@ int main()
     int len = sizeof(A) / sizeof(A[0]);
 
     insert_sort_iterative(A, len);
-    //insert_sort_recursive(A, len);
+    // insert_sort_recursive(A, len);
 
     for (int i = 0; i < len; ++i)
         cout << A[i] << endl;
