@@ -7,33 +7,33 @@ void mergeWithSentry(int A[], int left, int mid, int right)
 	int n1 = mid - left + 1;
 	int n2 = right - mid;
 
-	int *ALeft = new int[n1 + 1];
-	int *ARight = new int[n2 + 1];
+	int *L = new int[n1 + 1];
+	int *R = new int[n2 + 1];
 
 	for (int i = 0; i < n1; ++i)
-		ALeft[i] = A[left + i];
+		L[i] = A[left + i];
 	for (int j = 0; j < n2; ++j)
-		ARight[j] = A[mid + 1 + j];
+		R[j] = A[mid + 1 + j];
 
-	ALeft[n1] = INT_MAX;
-	ARight[n2] = INT_MAX;
+	L[n1] = INT_MAX;
+	R[n2] = INT_MAX;
 
 	int i = 0, j = 0;
 
 	int k = left;
 	while (k <= right)
 	{
-		if (ALeft[i] <= ARight[j])
-			A[k++] = ALeft[i++];
+		if (L[i] <= R[j])
+			A[k++] = L[i++];
 		else
-			A[k++] = ARight[j++];
+			A[k++] = R[j++];
 	}
 
-	delete ALeft;
-	ALeft = NULL;
+	delete L;
+	L = NULL;
 
-	delete ARight;
-	ALeft = NULL;
+	delete R;
+	R = NULL;
 }
 
 void mergeWithoutSentry(int A[], int left, int mid, int right)
@@ -41,34 +41,34 @@ void mergeWithoutSentry(int A[], int left, int mid, int right)
 	int n1 = mid - left + 1;
 	int n2 = right - mid;
 
-	int *ALeft = new int[n1];
-	int *ARight = new int[n2];
+	int *L = new int[n1];
+	int *R = new int[n2];
 
 	for (int i = 0; i < n1; ++i)
-		ALeft[i] = A[left + i];
+		L[i] = A[left + i];
 	for (int j = 0; j < n2; ++j)
-		ARight[j] = A[mid + 1 + j];
+		R[j] = A[mid + 1 + j];
 
 	int i = 0, j = 0;
 	int k = left;
 	while (i < n1 && j < n2)
 	{
-		if (ALeft[i] <= ARight[j])
-			A[k++] = ALeft[i++];
+		if (L[i] <= R[j])
+			A[k++] = L[i++];
 		else
-			A[k++] = ARight[j++];
+			A[k++] = R[j++];
 	}
 
 	while (i < n1)
-		A[k++] = ALeft[i++];
+		A[k++] = L[i++];
 	while (j < n2)
-		A[k++] = ARight[j++];
+		A[k++] = R[j++];
 
-	delete ALeft;
-	ALeft = NULL;
+	delete L;
+	L = NULL;
 
-	delete ARight;
-	ALeft = NULL;
+	delete R;
+	R = NULL;
 }
 
 void merge_sort(int A[], int left, int right)
@@ -78,7 +78,7 @@ void merge_sort(int A[], int left, int right)
 		int mid = left + (right - left) / 2;
 		merge_sort(A, left, mid);
 		merge_sort(A, mid + 1, right);
-		//mergeWithSentry(A, left, mid, right);
+		// mergeWithSentry(A, left, mid, right);
 		mergeWithoutSentry(A, left, mid, right);
 	}
 }
