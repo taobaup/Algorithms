@@ -121,6 +121,7 @@ void merge(int A[], int left, int mid, int right, int temp[])
 	while (j <= right)
 		temp[k++] = A[j++];
 
+	// 注意 i <= right 不要写成 i < right
 	for (int i = left; i <= right; ++i)
 		A[i] = temp[i];
 }
