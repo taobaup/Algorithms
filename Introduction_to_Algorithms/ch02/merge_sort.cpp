@@ -1,3 +1,4 @@
+1）
 #include <iostream>
 
 using namespace std;
@@ -88,6 +89,64 @@ int main()
 	int A[] = { 3, -1, 200, 0 };
 	int n = sizeof(A) / sizeof(A[0]);
 	merge_sort(A, 0, n - 1);
+	for (int i = 0; i < n; ++i)
+		cout << A[i] << endl;
+
+	return 0;
+}
+
+
+
+
+2）
+#include <iostream>
+
+using namespace std;
+
+void merge(int A[], int left, int mid, int right, int temp[])
+{
+	int i = left, j = mid + 1;
+	int k = left;
+
+	while (i <= mid && j <= right)
+	{
+		if (A[i] <= A[j])
+			temp[k++] = A[i++];
+		else
+			temp[k++] = A[j++];
+	}
+
+	while(i <= mid)
+		temp[k++] = A[i++];
+	while (j <= right)
+		temp[k++] = A[j++];
+
+	for (int i = left; i <= right; ++i)
+		A[i] = temp[i];
+}
+
+
+void merge_sort(int A[], int left, int right, int temp[])
+{
+	if (left < right)
+	{
+		int mid = left + (right - left) / 2;
+		merge_sort(A, left, mid, temp);
+		merge_sort(A, mid + 1, right, temp);
+		merge(A, left, mid, right, temp);
+	}
+}
+
+int main()
+{
+	int A[] = { -20,0,800,-3,2000,50 };
+	int n = sizeof(A) / sizeof(A[0]);
+	int *B = new int[n];
+
+	merge_sort(A, 0, n - 1, B);
+	delete B;
+	B = NULL;
+
 	for (int i = 0; i < n; ++i)
 		cout << A[i] << endl;
 
