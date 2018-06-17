@@ -1,6 +1,9 @@
 数组中的逆序对
 
 
+
+
+
 class Solution {
 public:
     long long merge(vector<int> &A, int left, int mid, int right)
@@ -27,8 +30,9 @@ public:
             }
             else
             {
-                count += n1 - i;
                 A[k++] = R[j++];
+                // 很重要的一步
+                count += n1 - i;
             }
         }
 
