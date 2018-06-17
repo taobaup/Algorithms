@@ -1,9 +1,6 @@
 数组中的逆序对
 
 
-
-
-
 class Solution {
 public:
     long long merge(vector<int> &A, int left, int mid, int right)
