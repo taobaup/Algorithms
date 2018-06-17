@@ -3,7 +3,7 @@
 
 class Solution {
 public:
-    long long mergeWithoutSentry(vector<int> &A, int left, int mid, int right)
+    long long merge(vector<int> &A, int left, int mid, int right)
     {
         int n1 = mid - left + 1;
         int n2 = right - mid;
@@ -54,8 +54,7 @@ public:
             int mid = left + (right - left) / 2;
             count += merge_sort(A, left, mid);
             count += merge_sort(A, mid + 1, right);
-            // mergeWithSentry(A, left, mid, right);
-            count += mergeWithoutSentry(A, left, mid, right);
+            count += merge(A, left, mid, right);
         }
 
         return count;
