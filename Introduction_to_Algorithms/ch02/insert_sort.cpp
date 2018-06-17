@@ -10,7 +10,7 @@ void insert_sort_iterative(int A[], int len)
     for (int j = 1; j < len; ++j)
     {
         int key = A[j];
-        // insert A[j] into the sorted sequence A[1..j-1]
+        // insert A[j] into the sorted sequence A[0..j-1]
         int i = j - 1;
         // 注意是 i >= 0 而不是 i > 0
         while (i >= 0 && A[i] > key)
