@@ -68,7 +68,7 @@ public:
         if(l < 0 || l > nums.size())
         	return result;
 
-       	int r = searchLastEqual(nums, target);
+       	int r = searchLastEqual(nums, l, target);
         if(r < 0 || r > nums.size())
         	return result;
         
@@ -100,8 +100,8 @@ public:
     	return -1;
     }
 
-    int searchLastEqual(vector<int>& nums, int target) {
-    	int left = 0;
+    int searchLastEqual(vector<int>& nums, int l, int target) {
+    	int left = l;
     	int right = nums.size() - 1;
 
     	while(left <= right)
@@ -113,7 +113,7 @@ public:
     			left = mid + 1;
     	}
 
-    	if(right >= 0 && right <= nums.size() - 1 && nums[right] == target)
+    	if(right >= l && right <= nums.size() - 1 && nums[right] == target)
     		return right;
 
     	return -1;
