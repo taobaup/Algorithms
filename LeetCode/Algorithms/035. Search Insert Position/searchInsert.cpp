@@ -12,8 +12,10 @@ public:
         	int mid = left + ((right - left) >> 1);
         	if(target > nums[mid])
         		left = mid + 1;
-        	else
+        	else if(target < nums[mid])
         		right = mid - 1;
+        	else
+        		return mid;
         }
 
         return left;
