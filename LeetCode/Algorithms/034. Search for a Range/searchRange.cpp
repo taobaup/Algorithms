@@ -18,8 +18,11 @@ public:
         while(r < nums.size() - 1 && nums[r + 1] == nums[l])
         	++r;
 
-        if(l < 0 || l > nums.size() || r < l)
+        if(l < 0 || l > nums.size())
         	return result;
+        
+        if(r < l)
+            return result;
 
         result[0] = l;
         result[1] = r;
