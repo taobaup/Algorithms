@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -26,8 +27,9 @@ bool find(int A[], int len, int target)
 
 int main()
 {
-	int A[] = { 0,1,3,4,5 };
+	int A[] = { 10, 0, 3, 4, 100, 5 };
 	int len = sizeof(A) / sizeof(A[0]);
+	sort(A, A + len);
 	cout << find(A, len, 5) << endl;
 	cout << find(A, len, 0) << endl;
 
