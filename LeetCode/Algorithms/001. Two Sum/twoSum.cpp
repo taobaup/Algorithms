@@ -46,8 +46,9 @@ public:
         	{
         		result.push_back(map[temp]);
         		result.push_back(i);
-        		return result;
+        		break;
         	}
+            
         	map[nums[i]] = i;
         }
 
