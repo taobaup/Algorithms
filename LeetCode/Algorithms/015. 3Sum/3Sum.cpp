@@ -1,4 +1,4 @@
-1)
+1）
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -18,7 +18,7 @@ public:
         	if(i > 0 && nums[i] == nums[i - 1])
         		continue;
 
-        	int target = 0 - nums[i];
+        	const int target = 0 - nums[i];
         	int j = i + 1;
         	int k = len - 1;
         	while(j < k)
@@ -37,9 +37,17 @@ public:
         				--k;
         		}
         		else if(nums[j] + nums[k] < target)
+        		{
         			++j;
+        			while(j < k && nums[j] == nums[j - 1])
+        				++j;
+        		}
         		else
+        		{
         			--k;
+        			while(j < k && nums[k] == nums[k + 1])
+        				--k;
+        		}
         	}
         }
 
@@ -50,7 +58,7 @@ public:
 
 
 
-2)
+2）
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -67,7 +75,7 @@ public:
         	if(i > 0 && nums[i] == nums[i - 1])
         		continue;
 
-        	int target = 0 - nums[i];
+        	const int target = 0 - nums[i];
         	int j = i + 1;
         	int k = len - 1;
         	while(j < k)
@@ -77,11 +85,6 @@ public:
         			result.insert({nums[i], nums[j], nums[k]});
         			++j;
         			--k;
-
-        			while(j < k && nums[j] == nums[j - 1])
-        				++j;
-        			while(j < k && nums[k] == nums[k + 1])
-        				--k;
         		}
         		else if(nums[j] + nums[k] < target)
         			++j;
