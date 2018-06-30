@@ -60,7 +60,7 @@ public:
         {
         	for(int j = i + 1; j < len; ++j)
         	{
-        		cache.insert(make_pair(nums[i] + nums[j], make_pair(i , j)));
+        		cache.insert(make_pair(nums[i] + nums[j], make_pair(i, j)));
         	}
         }
 
