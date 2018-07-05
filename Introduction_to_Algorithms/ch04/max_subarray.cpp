@@ -152,3 +152,44 @@ int main()
 
 	return 0;
 }
+
+
+
+4)
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int find_maximum_subarray(vector<int> &nums)
+{
+	int len = nums.size();
+	if (len <= 0)
+		return 0;
+
+	int max = INT_MIN;
+	int sum = 0;
+	for (int i = 0; i < len; ++i)
+	{
+		// 不要写成 nums[i] >= 0
+		if (sum >= 0)
+			sum += nums[i];
+		else
+			sum = nums[i];
+
+		if (sum > max)
+			max = sum;
+	}
+	
+	return max;
+}
+
+int main()
+{
+	vector<int> nums = { 1, -2, 3, 10, -4, 7, 2, -5 };
+	
+	int res = find_maximum_subarray(nums);
+	cout << res << endl;
+
+	return 0;
+}
