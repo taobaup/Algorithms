@@ -73,7 +73,10 @@ void build_max_heap(int A[], int len)
 {
 	heap_size = len;
 	for (int i = (len - 1) / 2; i >= 0; --i)
-		max_heapify_iterative(A, i);
+	{
+		max_heapify(A, i);
+		// max_heapify_iterative(A, i);
+	}
 }
 
 void heapsort(int A[], int len)
