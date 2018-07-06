@@ -1,0 +1,102 @@
+#include <iostream>
+
+using namespace std;
+
+int heap_size = 0;
+
+// 父结点下标
+int parent(int i)
+{
+	return (i - 1) / 2;
+}
+
+// 左孩子下标
+int left(int i)
+{
+	return 2 * i + 1;
+}
+
+// 右孩子下标
+int right(int i)
+{
+	return 2 * i + 2;
+}
+
+// max_heapify 通过让 A[i] 的值在最大堆中“逐级下降”，从而使得以下标 i 为根结点的子树重新遵循最大堆的性质
+void max_heapify(int A[], int i)
+{
+	int l = left(i);
+	int r = right(i);
+
+	int largest = i;
+	if (l < heap_size && A[l] > A[i])
+		largest = l;
+
+	if (r < heap_size && A[r] > A[largest])
+		largest = r;
+
+	if (largest != i)
+	{
+		swap(A[i], A[largest]);
+		max_heapify(A, largest);
+	}
+}
+
+void max_heapify_iterative(int A[], int i)
+{
+	bool flag = true;
+
+	while (i < heap_size && flag)
+	{
+		int l = left(i);
+		int r = right(i);
+
+		int largest = i;
+		if (l < heap_size && A[l] > A[i])
+			largest = l;
+
+		if (r < heap_size && A[r] > A[largest])
+			largest = r;
+
+		if (largest != i)
+		{
+			swap(A[i], A[largest]);
+			i = largest;
+		}
+		else
+			flag = false;
+	}
+}
+
+// 建堆，用自底向上的方法利用过程 max_heapify 把一个大小为 len 的数组 A[0..len-1] 转换为最大堆
+void build_max_heap(int A[], int len)
+{
+	heap_size = len;
+	for (int i = (len - 1) / 2; i >= 0; --i)
+		max_heapify_iterative(A, i);
+}
+
+void heapsort(int A[], int len)
+{
+	build_max_heap(A, len);
+	for (int i = len - 1; i >= 1; --i)
+	{
+		swap(A[0], A[i]);
+		--heap_size;
+		max_heapify(A, 0);
+	}
+}
+
+int main()
+{
+	int A[] = { 100, -3, 10, -1, 0, 1000, 200 };
+	int len = sizeof(A) / sizeof(A[0]);
+	if (len <= 0)
+		return 0;
+	
+	heapsort(A, len);
+	for (int i = 0; i < len; ++i)
+		cout << A[i] << endl;
+
+	return 0;
+}
