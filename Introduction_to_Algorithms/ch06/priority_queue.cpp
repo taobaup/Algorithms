@@ -127,7 +127,7 @@ void heap_increase_key_oneassign(int A[], int i, int key)
 
 	while (i > 0 && A[parent(i)] < key)
 	{
-		swap(A[i], A[parent(i)]);
+		A[i] = A[parent(i)];
 		i = parent(i);
 	}
 
@@ -190,11 +190,11 @@ int main()
 	heap_increase_key(A, 1, 10000);
 	print_heap(A);
 
-	cout << "插入新的值: -300" << endl;
-	max_heap_insert(A, -300);
+	cout << "插入新的值: 500" << endl;
+	max_heap_insert(A, 500);
 	print_heap(A);
 
-	cout << "删除第 1 位元素" << endl;
+	cout << "删除结点 1 " << endl;
 	heap_delete(A, 1);
 	print_heap(A);
 
