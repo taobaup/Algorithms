@@ -26,25 +26,6 @@ int right(int i)
 // max_heapify 通过让 A[i] 的值在最大堆中“逐级下降”，从而使得以下标 i 为根结点的子树重新遵循最大堆的性质
 void max_heapify(int A[], int i)
 {
-	int l = left(i);
-	int r = right(i);
-
-	int largest = i;
-	if (l < heap_size && A[l] > A[i])
-		largest = l;
-
-	if (r < heap_size && A[r] > A[largest])
-		largest = r;
-
-	if (largest != i)
-	{
-		swap(A[i], A[largest]);
-		max_heapify(A, largest);
-	}
-}
-
-void max_heapify_iterative(int A[], int i)
-{
 	bool flag = true;
 
 	while (i < heap_size && flag)
@@ -145,7 +126,7 @@ void heap_delete(int A[], int i)
 {
 	swap(A[i], A[heap_size - 1]);
 	--heap_size;
-	max_heapify(A, 0);
+	max_heapify(A, i);
 }
 
 void heap_delete_thevalue(int A[], int target)
@@ -186,7 +167,7 @@ int main()
 	cout << heap_extract_max(A) << endl;
 	print_heap(A);
 
-	cout << "1: " << A[1] << endl;
+	cout << "修改A[1]的值: " << A[1] << " 为10000 "<< endl;
 	heap_increase_key(A, 1, 10000);
 	print_heap(A);
 
