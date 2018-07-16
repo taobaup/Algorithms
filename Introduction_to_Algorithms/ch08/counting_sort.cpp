@@ -25,7 +25,6 @@ void counting_sort(int A[], int B[], int k)
 	delete C;
 }
 
-
 int main() {
 	int A[len] = { 2,5,3,0,2,3,0,3 };
 	int B[len];
