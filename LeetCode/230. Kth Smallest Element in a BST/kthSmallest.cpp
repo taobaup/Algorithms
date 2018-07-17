@@ -30,7 +30,7 @@ public:
        		--k;
        	}
 
-       	if(res ==NULL && root->right != NULL)
+       	if(res == NULL && root->right != NULL)
        		res = kthSmallestCore(root->right, k);
 
        	return res;
