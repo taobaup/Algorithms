@@ -22,6 +22,7 @@ public:
 		return KthNodeCore(root, k);
 	}
 
+	// k 要用引用
 	TreeNode* KthNodeCore(TreeNode* root, int &k)
 	{
 		TreeNode *res = NULL;
