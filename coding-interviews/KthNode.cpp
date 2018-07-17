@@ -1,3 +1,8 @@
+二叉搜索树的第k个结点
+
+
+// 不要把 TreeNode 写成 ListNode 之类的
+
 struct TreeNode {
 	int val;
 	struct TreeNode *left;
