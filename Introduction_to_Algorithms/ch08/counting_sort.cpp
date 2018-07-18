@@ -22,10 +22,10 @@ void counting_sort(int A[], int B[], int k)
 		--C[A[i]];
 	}
 
-	delete C;
+	delete[] C;
 }
 
-int main() 
+int main()
 {
 	int A[len] = { 2,5,3,0,2,3,0,3 };
 	int B[len];
