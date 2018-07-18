@@ -33,9 +33,11 @@ void radix_sort(int A[], int B[], int d)
 		radix *= 10;
 		memcpy(A, B, len * sizeof(int));
 	}
+
+	delete[] C;
 }
 
-int main() 
+int main()
 {
 	int A[len] = { 329,457,657,839,436,720,355 };
 	int B[len];
