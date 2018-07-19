@@ -46,7 +46,7 @@
 	 }
 	 else
 	 {
-		 for (int i = 2; i < len - 1; ++i)
+		 for (int i = 2; i < len - 1; i+=2)
 		 {
 			 temp = return_node(A[i], A[i + 1]);
 			 if (temp.max > res.max)
@@ -72,6 +72,15 @@
 		 cout << "< 2" << endl;
 
 	 node res = min_and_max(A, len);
+	 cout << "min: " << res.min << endl;
+	 cout << "max: " << res.max << endl;
+
+	 int B[] = { 10,-2,300,-200,560 };
+	 len = sizeof(B) / sizeof(B[0]);
+	 if (len < 2)
+		 cout << "< 2" << endl;
+
+	 res = min_and_max(B, len);
 	 cout << "min: " << res.min << endl;
 	 cout << "max: " << res.max << endl;
 
