@@ -34,7 +34,7 @@
 	 if (len % 2 == 0)
 	 {
 		 // i+=2 一定不能写成 ++i
-		 for (int i = 2; i < len; i+=2)
+		 for (int i = 2; i < len; i += 2)
 		 {
 			 temp = return_node(A[i], A[i + 1]);
 			 if (temp.max > res.max)
@@ -46,7 +46,7 @@
 	 }
 	 else
 	 {
-		 for (int i = 2; i < len - 1; i+=2)
+		 for (int i = 2; i < len - 1; i += 2)
 		 {
 			 temp = return_node(A[i], A[i + 1]);
 			 if (temp.max > res.max)
