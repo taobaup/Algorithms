@@ -27,7 +27,7 @@ int ranged_rand(int range_min, int range_max)
 	// [range_min, range_max). In other words,
 	// range_min <= random number < range_max
 
-	// Rand函数返回一个伪随机整数在范围 0 到 RAND_MAX (32767)
+	// rand 函数返回一个伪随机整数在范围 0 到 RAND_MAX (32767)
 	int u = (double)rand() / (RAND_MAX + 1) * (range_max - range_min) + range_min;
 
 	return u;
