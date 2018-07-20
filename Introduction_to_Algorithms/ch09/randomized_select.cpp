@@ -27,7 +27,7 @@ int ranged_rand(int range_min, int range_max)
 	// [range_min, range_max). In other words,
 	// range_min <= random number < range_max
 
-	// rand 函数返回一个伪随机整数在范围 0 到 RAND_MAX (32767)
+	// Rand函数返回一个伪随机整数在范围 0 到 RAND_MAX (32767)
 	int u = (double)rand() / (RAND_MAX + 1) * (range_max - range_min) + range_min;
 
 	return u;
@@ -44,7 +44,7 @@ int randomized_partition(int A[], int p, int r)
 	return partition(A, p, r);
 }
 
-int randomized_select(int A[], int p, int r, int i)
+int randomized_select(int A[], int p, int r, int k)
 {
 	if (p == r)
 	{
@@ -52,18 +52,18 @@ int randomized_select(int A[], int p, int r, int i)
 	}
 
 	int q = randomized_partition(A, p, r);
-	int k = q - p + 1;
+	int count = q - p + 1;
 
-	if (i == k)
+	if (k == count)
 	{
 		return A[q];
 	}
-	else if (i < k)
+	else if (k < count)
 	{
-		return randomized_select(A, p, q - 1, i);
+		return randomized_select(A, p, q - 1, k);
 	}
 	else
-		return randomized_select(A, q + 1, r, i - k);
+		return randomized_select(A, q + 1, r, k - count);
 }
 
 int main()
