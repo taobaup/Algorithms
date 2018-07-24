@@ -1,4 +1,4 @@
-1)
+1) 暴力解法
 #include <iostream>
 #include <vector>
 
@@ -38,7 +38,7 @@ int main()
 
 
 
-2)
+2) 分治
 #include <iostream>
 #include <vector>
 
@@ -114,7 +114,7 @@ int main()
 
 
 
-3)
+3) 区间法
 #include <iostream>
 #include <vector>
 
@@ -155,7 +155,7 @@ int main()
 
 
 
-4)
+4) 动态规划
 #include <iostream>
 #include <vector>
 
