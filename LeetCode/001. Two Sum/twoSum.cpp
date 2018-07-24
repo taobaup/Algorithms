@@ -1,4 +1,4 @@
-1)
+1：
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -29,7 +29,7 @@ public:
 
 
 
-2)
+2：
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
