@@ -1,15 +1,14 @@
 #include <iostream>
 #include <stack>
-#include <cstdlib>
 
 using namespace std;
 
 template<class T>
-class StackQueue
+class CQueue
 {
 public:
-	StackQueue(){}
-	~StackQueue(){}
+	CQueue() {}
+	~CQueue() {}
 
 	void push_back(const T& node);
 	T pop_front();
@@ -22,13 +21,13 @@ private:
 };
 
 template<class T>
-void StackQueue<T>::push_back(const T& node)
+void CQueue<T>::push_back(const T& node)
 {
 	stack1.push(node);
 }
 
 template<class T>
-T StackQueue<T>::pop_front()
+T CQueue<T>::pop_front()
 {
 	if (stack2.empty())
 	{
@@ -44,10 +43,10 @@ T StackQueue<T>::pop_front()
 	stack2.pop();
 
 	return res;
-} 
+}
 
 template<class T>
-T StackQueue<T>::front()
+T CQueue<T>::front()
 {
 	if (stack2.empty())
 	{
@@ -65,28 +64,28 @@ T StackQueue<T>::front()
 }
 
 template<class T>
-bool StackQueue<T>::empty() const
+bool CQueue<T>::empty() const
 {
 	return stack1.empty() ? true : false;
 }
 
 int main()
 {
-	StackQueue<int> SQ;
+	CQueue<int> CQ;
 	for (int i = 0; i < 10; ++i)
 	{
-		SQ.push_back(i);
+		CQ.push_back(i);
 	}
 
-	cout << "empty: " << SQ.empty() << endl;
+	cout << "empty: " << CQ.empty() << endl;
 	cout << endl;
 	for (int i = 0; i < 10; ++i)
 	{
-		cout << "top: " << SQ.front() << endl;
-		cout << "pop: " << SQ.pop_front() << endl;
+		cout << "top: " << CQ.front() << endl;
+		cout << "pop: " << CQ.pop_front() << endl;
 		cout << endl;
 	}
-	cout << "empty: " << SQ.empty() << endl;
+	cout << "empty: " << CQ.empty() << endl;
 
 	return 0;
 }
