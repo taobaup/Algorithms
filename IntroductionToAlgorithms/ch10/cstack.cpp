@@ -1,9 +1,33 @@
+stack	member functions:
+
+stack::emplace
+stack::empty
+stack::pop
+stack::push
+stack::size
+stack::swap
+stack::top
+
+
+queue	member functions:
+
+queue::emplace
+queue::empty
+queue::pop
+queue::push
+queue::size
+queue::swap
+queue::front
+queue::back
+
+
 #include<queue>
 #include<exception>
 
 using namespace std;
 
-template <typename T> class CStack
+template <typename T> 
+class CStack
 {
 public:
 	CStack() {}
