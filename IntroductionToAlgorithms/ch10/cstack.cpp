@@ -26,7 +26,7 @@ queue::back
 
 using namespace std;
 
-template <typename T> 
+template <typename T>
 class CStack
 {
 public:
@@ -50,14 +50,7 @@ void CStack<T>::push(const T& node)
 	}
 	else
 	{
-		if (queue1.size() == 0)
-		{
-			queue2.push(node);
-		}
-		else
-		{
-			queue1.push(node);
-		}
+		queue1.push(node);
 	}
 }
 
