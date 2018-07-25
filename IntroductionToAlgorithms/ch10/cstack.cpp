@@ -6,19 +6,19 @@ using namespace std;
 template <typename T> class CStack
 {
 public:
-	CStack(){}
-	~CStack(){}
+	CStack() {}
+	~CStack() {}
 
-	void push_back(const T& node);
-	T pop_back();
+	void push(const T& node);
+	T pop();
 
 private:
 	queue<T> queue1;
 	queue<T> queue2;
 };
 
-template<typename T> 
-void CStack<T>::push_back(const T& node)
+template<typename T>
+void CStack<T>::push(const T& node)
 {
 	if (queue1.size() > 0 && queue2.size() > 0)
 	{
@@ -37,8 +37,8 @@ void CStack<T>::push_back(const T& node)
 	}
 }
 
-template<typename T> 
-T CStack<T>::pop_back()
+template<typename T>
+T CStack<T>::pop()
 {
 	if (queue1.size() == 0 && queue2.size() == 0)
 	{
@@ -86,25 +86,25 @@ int main(int argc, char* argv[])
 {
 	CStack<char> stack;
 
-	stack.push_back('a');
-	stack.push_back('b');
-	stack.push_back('c');
+	stack.push('a');
+	stack.push('b');
+	stack.push('c');
 
-	char res = stack.pop_back();
+	char res = stack.pop();
 	test(res, 'c');
 
-	res = stack.pop_back();
+	res = stack.pop();
 	test(res, 'b');
 
-	stack.push_back('d');
-	res = stack.pop_back();
+	stack.push('d');
+	res = stack.pop();
 	test(res, 'd');
 
-	stack.push_back('e');
-	res = stack.pop_back();
+	stack.push('e');
+	res = stack.pop();
 	test(res, 'e');
 
-	res = stack.pop_back();
+	res = stack.pop();
 	test(res, 'a');
 
 	return 0;
