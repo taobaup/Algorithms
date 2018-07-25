@@ -10,8 +10,8 @@ public:
 	CQueue() {}
 	~CQueue() {}
 
-	void push_back(const T& node);
-	T pop_front();
+	void push(const T& node);
+	T pop();
 	T front();
 	bool empty() const;
 
@@ -21,13 +21,13 @@ private:
 };
 
 template<class T>
-void CQueue<T>::push_back(const T& node)
+void CQueue<T>::push(const T& node)
 {
 	stack1.push(node);
 }
 
 template<class T>
-T CQueue<T>::pop_front()
+T CQueue<T>::pop()
 {
 	if (stack2.empty())
 	{
@@ -74,15 +74,15 @@ int main()
 	CQueue<int> CQ;
 	for (int i = 0; i < 10; ++i)
 	{
-		CQ.push_back(i);
+		CQ.push(i);
 	}
 
 	cout << "empty: " << CQ.empty() << endl;
 	cout << endl;
 	for (int i = 0; i < 10; ++i)
 	{
-		cout << "top: " << CQ.front() << endl;
-		cout << "pop: " << CQ.pop_front() << endl;
+		cout << "front: " << CQ.front() << endl;
+		cout << "pop: " << CQ.pop() << endl;
 		cout << endl;
 	}
 	cout << "empty: " << CQ.empty() << endl;
