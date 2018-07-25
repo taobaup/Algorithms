@@ -89,7 +89,7 @@ T CQueue<T>::front()
 template<class T>
 bool CQueue<T>::empty() const
 {
-	return stack1.empty() ? true : false;
+	return stack1.empty() && stack2.empty();
 }
 
 int main()
