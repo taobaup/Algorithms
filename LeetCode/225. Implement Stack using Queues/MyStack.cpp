@@ -13,11 +13,7 @@ public:
     /** Push element x onto stack. */
     void push(int x) {
         top_num =x;
-        
-        if(queue1.size() == 0)
-        	queue2.push(x);
-        else
-        	queue1.push(x);
+        queue1.push(x);
     }
     
     /** Removes the element on top of the stack and returns that element. */
@@ -68,6 +64,17 @@ public:
         return queue1.empty() && queue2.empty();
     }
 };
+
+
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * MyStack obj = new MyStack();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.top();
+ * bool param_4 = obj.empty();
+ */
 
 
 
