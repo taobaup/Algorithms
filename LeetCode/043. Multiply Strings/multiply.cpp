@@ -1,31 +1,32 @@
 class Solution {
 public:
     string multiply(string num1, string num2) {
-		const int m = num1.size();
-		const int n = num2.size();
-		vector<int> a(m + n, 0);
+        const int m = num1.size();
+        const int n = num2.size();
+        vector<int> v(m + n, 0);
 
-		for (int i = 0; i < m; ++i)
-		{
-			int dig = 0;
-			for (int j = 0; j < n; ++j)
-			{
-				a[i + j] += (num1[m - 1 - i] - '0')*(num2[n - 1 - j] - '0') + dig;
-				dig = a[i + j] / 10;
-				a[i + j] %= 10;
-			}
+        for(int i = 0; i < m; ++i)
+        {
+        	int dig = 0;
+        	for(int j = 0; j < n; ++j)
+        	{
+        		v[i + j] += (num1[m - 1- i] - '0') * (num2[n - 1 - j] - '0') + dig;
+        		dig = v[i + j] / 10;
+        		v[i + j] %= 10;
+        	}
 
-			if (dig)
-				a[n + i] += dig;
-		}
+        	if(dig > 0)
+        		v[n + i] += dig;
+        }
 
-		while (a.size() > 1 && a.back() == 0)
-			a.pop_back();
+	// not v.size() > 0
+        while(v.size() > 1 && v.back() == 0)
+        	v.pop_back();
 
-		string result;
-		for (auto it = a.rbegin(); it != a.rend(); ++it)
-			result += *it + '0';
+        string res;
+        for(auto it = v.rbegin(); it != v.rend(); ++it)
+        	res += *it + '0';
 
-		return result;
-	}
+        return res;
+    }
 };
