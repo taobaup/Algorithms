@@ -37,37 +37,40 @@ public:
 class Solution {
 public:
     int trap(vector<int>& height) {
-        int len = height.size();
-        if(len == 0)
-            return 0;
+    	int res = 0;
+    	const int len = height.size();
+    	if(len <= 0)
+    		return res;
 
-        int l = 0;
-        int r = len - 1;
-        int res = 0;
+    	int l = 0;
+    	int r = len - 1;
+    	while(l < r)
+    	{
+    		int minH = min(height[l], height[r]);
 
-        while(l < r)
-        {
-            int minH = min(height[l], height[r]);
-            if(height[l] == minH)
-            {
-                ++l;
-                while(l < r && height[l] < minH)
-                {
-                    res += minH - height[l];
-                    ++l;
-                }
-            }
-            else
-            {
-                --r;
-                while(l < r && height[r] < minH)
-                {
-                    res += minH - height[r];
-                    --r;
-                }
-            }
-        }
+    		if(height[l] == minH)
+    		{
+    			++l;
 
-        return res;
+    			// not height[l] > minH
+    			while(l < r && height[l] < minH)
+    			{
+    				res += minH - height[l];
+    				++l;
+    			}
+    		}
+    		else
+    		{
+    			--r;
+
+    			while(l < r && height[r] < minH)
+    			{
+    				res += minH - height[r];
+    				--r;
+    			}
+    		}
+    	}
+
+    	return res;
     }
 };
