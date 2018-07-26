@@ -35,7 +35,7 @@ public:
     	int len = nums.size();
         for(int i = 0; i < len; ++i)
         {
-            // while, not if     example: [3,4,-1,1]
+            // while, not if     example: [3,4,-1,1]    Expected: 2 not 1
         	while(nums[i] >= 1 && nums[i] <= len && nums[i] != nums[nums[i] - 1])
         	{
         		swap(nums[i], nums[nums[i] - 1]);
