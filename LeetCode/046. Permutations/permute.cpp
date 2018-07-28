@@ -7,6 +7,7 @@ public:
         return res;
     }
 
+    // vector<vector<int>>& res, not vector<vector<int>> res
     void permute(vector<int>& nums, int start, vector<vector<int>>& res)
     {
     	if(start >= nums.size())
