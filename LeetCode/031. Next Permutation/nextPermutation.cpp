@@ -29,6 +29,7 @@ public:
             swap(nums[i], nums[j]);
         }
         
+        // reverse, not nums.reverse
         reverse(nums.begin() + i + 1, nums.end());
     }
 };
