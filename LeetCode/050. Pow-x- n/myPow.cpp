@@ -55,6 +55,7 @@ public:
         if(n == 1)
             return x;
 
+        // double, not int
         double res = 1.0;
         for(int i = n; i != 0; i /= 2)
         {
