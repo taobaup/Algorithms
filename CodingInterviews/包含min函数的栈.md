@@ -19,7 +19,9 @@ public:
         s1.pop();
 
         if(s2.top() == value)
+        {
             s2.pop();
+        }
     }
 
     int top() {
