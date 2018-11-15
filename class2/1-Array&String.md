@@ -89,12 +89,10 @@ public:
 ```
 
 >Given a newspaper and message as two strings, check if the message can be composed using letters in the newspaper.  
-解题分析：message中⽤用到的字符必须出现在newspaper中。其次，message中  
-任意字符出现的次数⼀一定少于其在newspaper中出现的次数。统计⼀一个元素集中  
-元素出现的次数，我们就应该想到hash table  
-复杂度分析：假设message长度为m ，newspaper长度为n，我们的算法需要  
-hash整条message和整个newspaper，故时间复杂度O(m+n)。假设字符集⼤大⼩小  
-为c，则平均空间是O(c)
+解题分析：message中用到的字符必须出现在newspaper中。其次，message中任意字符出现的次数一定少于其在newspaper中出现的次数。统计一个元素集中  元素出现的次数，我们就应该想到hash table  
+复杂度分析：假设message长度为m ，newspaper长度为n，我们的算法需要  hash整条message和整个newspaper，故时间复杂度O(m+n)。  
+假设字符集大小为c，则平均空间是O(c)
+
 ```
 #include <iostream>      
 #include <unordered_map>    
