@@ -23,7 +23,7 @@ public:
     	for(int i = 0; i < s.size(); ++i)
     	{
     		++count[s[i]];
-            /* 不要写成 --count[s[i]]; */
+            // 不要写成 --count[s[i]]; 
     		--count[t[i]];
     	}
 
