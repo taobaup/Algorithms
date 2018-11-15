@@ -88,7 +88,7 @@ public:
 };
 ```
 
->Given a newspaper and message as two strings, check if the messagecan be composed using letters in the newspaper.  
+>Given a newspaper and message as two strings, check if the message can be composed using letters in the newspaper.  
 解题分析：message中⽤用到的字符必须出现在newspaper中。其次，message中  
 任意字符出现的次数⼀一定少于其在newspaper中出现的次数。统计⼀一个元素集中  
 元素出现的次数，我们就应该想到hash table  
