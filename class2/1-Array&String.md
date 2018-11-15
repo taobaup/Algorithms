@@ -10,9 +10,9 @@ bool isUnique(string &s)
 {
 	bitset<256> hashMap;
 
-	for (int i = 0; i != s.size(); ++i)
+	for (int i = 0; i < s.size(); ++i)
 	{
-		if(hashMap[s[i]])
+		if (hashMap[s[i]])
 		{
 			return false;
 		}
