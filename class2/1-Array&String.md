@@ -119,3 +119,42 @@ public:
     }
 };
 ```
+
+Determine if all characters of a string are unique.
+* 一般来说，一旦出现“unique”，就落⼊入使⽤用hash table或者bitset来判断元素出现与否的范畴。
+```
+#include <iostream>      
+#include <bitset>        
+
+using namespace std;
+
+bool isUnique(string &s)
+{
+	bitset<256> hashMap;
+
+	for (int i = 0; i != s.size(); ++i)
+	{
+		if(hashMap[s[i]])
+		{
+			return false;
+		}
+
+		hashMap[s[i]] = 1;
+	}
+
+	return true;
+}
+
+int main()
+{
+	string s = "leetcode";
+	bool flag = isUnique(s);
+	cout << flag << endl;
+
+	s = "code";
+	flag = isUnique(s);
+	cout << flag << endl;
+
+	return 0;
+}
+```
