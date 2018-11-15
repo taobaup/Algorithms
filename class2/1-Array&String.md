@@ -41,50 +41,50 @@ LeetCode 387. First Unique Character in a String
 ```
 class Solution {
 public:
-    int firstUniqChar(string s) {
-        int count[256] = {0};
+	int firstUniqChar(string s) {
+		int count[256] = { 0 };
 
-        for(int i = 0; i != s.size(); ++i)
-        {
-            ++count[s[i]];
-        }
+		for (int i = 0; i < s.size(); ++i)
+		{
+			++count[s[i]];
+		}
 
-        for(int i = 0; i != s.size(); ++i)
-        {
-            // 不要写成 if(count[s[i]])
-            if(count[s[i]] == 1)
-            {
-                return i;
-            }
-        }
+		for (int i = 0; i < s.size(); ++i)
+		{
+			// 不要写成 if(count[s[i]])
+			if (count[s[i]] == 1)
+			{
+				return i;
+			}
+		}
 
-        return -1;
-    }
+		return -1;
+	}
 };
 ```
 
 ```
 class Solution {
 public:
-    int firstUniqChar(string s) {
-        int count[26] = {0};
+	int firstUniqChar(string s) {
+		int count[26] = { 0 };
 
-        for(int i = 0; i != s.size(); ++i)
-        {
-            ++count[s[i] - 'a'];
-        }
+		for (int i = 0; i < s.size(); ++i)
+		{
+			++count[s[i] - 'a'];
+		}
 
-        for(int i = 0; i != s.size(); ++i)
-        {
-            // 不要写成 if(count[s[i] - 'a'])
-            if(count[s[i] - 'a'] == 1)
-            {
-                return i;
-            }
-        }
+		for (int i = 0; i < s.size(); ++i)
+		{
+			// 不要写成 if(count[s[i] - 'a'])
+			if (count[s[i] - 'a'] == 1)
+			{
+				return i;
+			}
+		}
 
-        return -1;
-    }
+		return -1;
+	}
 };
 ```
 
@@ -111,12 +111,12 @@ bool canCompose(string &s, string &t)
 
 	unordered_map<char, int> hashMap;
 
-	for (int i = 0; i != s.size(); ++i)
+	for (int i = 0; i < s.size(); ++i)
 	{
 		++hashMap[s[i]];
 	}
 
-	for (int i = 0; i != t.size(); ++i)
+	for (int i = 0; i < t.size(); ++i)
 	{
 		if (hashMap.count(t[i]) == 0)
 		{
