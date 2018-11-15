@@ -156,9 +156,8 @@ Challenge
 O(n) time, O(1) extra space
 
 模式识别  
-当处理当前节点需要依赖于之前的部分结果时，可以考虑使用hash table  
-记录之前的处理结果。其本质类似于Dynamic Programming，利用hash  
-table以O(1)的时间复杂度获得之前的结果。
+当处理当前节点需要依赖于之前的部分结果时，可以考虑使用hash table记录之前的处理结果。  
+其本质类似于Dynamic Programming，利用hash table以O(1)的时间复杂度获得之前的结果。
 
 LintCode 158. Valid Anagram
 
