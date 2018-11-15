@@ -121,7 +121,7 @@ public:
 ```
 
 Determine if all characters of a string are unique.
-* 一般来说，一旦出现“unique”，就落⼊入使⽤用hash table或者bitset来判断元素出现与否的范畴。
+* 一般来说，一旦出现“unique”，就落入使用hash table或者bitset来判断元素出现与否的范畴。
 ```
 #include <iostream>      
 #include <bitset>        
