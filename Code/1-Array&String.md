@@ -229,6 +229,7 @@ public:
 };
 ```
 
+LeetCode 128. Longest Consecutive Sequence
 >Get the length of the longest consecutive elements sequence in an array  
 For example, given [31, 6, 32, 1, 3, 2],the longest consecutive elements sequence is [1, 2, 3].   
 Return its length: 3.  
@@ -237,7 +238,7 @@ Return its length: 3.
 structure，⽤用以描述当前节点参与构成的最长序列。
 时间复杂度O(n)，附加空间O(n)
 
-LeetCode 128. Longest Consecutive Sequence
+
 ```
 struct Bound
 {
