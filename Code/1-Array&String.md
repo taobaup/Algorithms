@@ -326,3 +326,57 @@ public:
     }
 };
 ```
+
+LintCode 80. Median
+```
+class Solution {
+public:
+    /**
+     * @param nums: A list of integers
+     * @return: An integer denotes the middle number of the array
+     */
+    int median(vector<int> &nums) {
+        if (nums.empty())
+        {
+        	return 0;
+        }
+
+        int len = nums.size();
+        return helper(nums, 0, len - 1, (len + 1) / 2);
+    }
+
+private:
+	int helper(vector<int> &nums, int l, int r, int size)
+	{
+		if (l >= r)
+		{
+			return nums[r];
+		}
+
+		int m = l;
+		for (int i = l + 1 ; i <= r; ++i)
+		{
+			if (nums[i] < nums[l])
+			{
+				++m;
+				swap(nums[i], nums[m]);
+			}
+		}
+
+		swap(nums[l], nums[m]);
+
+		if (m - l + 1 == size)
+		{
+			return nums[m];
+		}
+		else if (m - l + 1 > size)
+		{
+			return helper(nums, l, m - 1, size);
+		}
+		else
+		{
+			return helper(nums, m + 1, r, size - (m - l + 1));
+		}
+	}
+};
+```
