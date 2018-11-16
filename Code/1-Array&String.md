@@ -234,8 +234,8 @@ LeetCode 128. Longest Consecutive Sequence
 For example, given [31, 6, 32, 1, 3, 2],the longest consecutive elements sequence is [1, 2, 3].   
 Return its length: 3.  
 判断array[i] – 1，array[i] + 1是否存在于数组中。如何保存之前的处理结果？可以使用hash table 由于序列是一系列连续整数，所以只要序列的最小值以及最
-大值，就能唯⼀一确定序列。⽽而所谓的“作为后继加⼊入序列”，“作为前驱加⼊序列”，更新最大最小值。hash table的value可以是一个记录最大／最小值的
-structure，⽤用以描述当前节点参与构成的最长序列。
+大值，就能唯一确定序列。而所谓的“作为后继加入序列”，“作为前驱加入序列”，更新最大最小值。hash table的value可以是一个记录最大／最小值的
+structure，⽤用以描述当前节点参与构成的最长序列。  
 时间复杂度O(n)，附加空间O(n)
 
 
