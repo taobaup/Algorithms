@@ -229,46 +229,13 @@ public:
 };
 ```
 
-LintCode 79. Longest Common Substring
-```
-class Solution {
-public:
-    /**
-     * @param A: A string
-     * @param B: A string
-     * @return: the length of the longest common substring.
-     */
-    int longestCommonSubstring(string &A, string &B) {
-    	if (A.empty() || B.empty())
-    	{
-    		return 0;
-    	}
-
-    	int lcs = 0, lcs_temp = 0;
-    	for (int i = 0; i < A.size(); ++i)
-    	{
-    		for (int j = 0; j < B.size(); ++j)
-    		{
-    			lcs_temp = 0;
-    			while (i + lcs_temp < A.size()
-    				&& j + lcs_temp < B.size()
-    				&& A[i + lcs_temp] == B[j + lcs_temp])
-    			{
-    				++lcs_temp;
-    			}
-
-    			if (lcs_temp > lcs)
-    			{
-    				lcs = lcs_temp;
-    			}
-    		}
-    	}
-
-    	return lcs;
-    }
-};
-```
-
+>Get the length of the longest consecutive elements sequence in an array  
+For example, given [31, 6, 32, 1, 3, 2],the longest consecutive elements sequence is [1, 2, 3].   
+Return its length: 3.
+判断array[i] – 1，array[i] + 1是否存在于数组中。如何保存之前的处理结果？可以使用hash table 由于序列是一系列连续整数，所以只要序列的最⼩小值以及最
+⼤大值，就能唯⼀一确定序列。⽽而所谓的“作为后继加⼊入序列”，“作为前驱加⼊序列”，更新最⼤大最⼩小值。hash table的value可以是⼀一个记录最大／最小值的
+structure，⽤用以描述当前节点参与构成的最长序列。
+时间复杂度O(n)，附加空间O(n)
 
 LeetCode 128. Longest Consecutive Sequence
 ```
@@ -327,7 +294,66 @@ public:
 };
 ```
 
+LintCode 79. Longest Common Substring
+>Longest Common Substring  
+Given two strings, find the longest common substring.  
+Return the length of it.  
+Example  
+Given A="ABCD", B="CBCE", return 2.  
+Note  
+The characters in substring should occur continuously in original string.  
+This is different with subsequence.
+
+```
+class Solution {
+public:
+    /**
+     * @param A: A string
+     * @param B: A string
+     * @return: the length of the longest common substring.
+     */
+    int longestCommonSubstring(string &A, string &B) {
+    	if (A.empty() || B.empty())
+    	{
+    		return 0;
+    	}
+
+    	int lcs = 0, lcs_temp = 0;
+    	for (int i = 0; i < A.size(); ++i)
+    	{
+    		for (int j = 0; j < B.size(); ++j)
+    		{
+    			lcs_temp = 0;
+    			while (i + lcs_temp < A.size()
+    				&& j + lcs_temp < B.size()
+    				&& A[i + lcs_temp] == B[j + lcs_temp])
+    			{
+    				++lcs_temp;
+    			}
+
+    			if (lcs_temp > lcs)
+    			{
+    				lcs = lcs_temp;
+    			}
+    		}
+    	}
+
+    	return lcs;
+    }
+};
+```
+
+
+
+
 LintCode 80. Median
+>Median  
+Given a unsorted array with integers, find the median of it.  
+A median is the middle number of the array after it is sorted.  
+If there are even numbers in the array, return the N/2-th number after sorted.  
+Example  
+Given [4, 5, 1, 2, 3], return 3  
+Given [7, 9, 4, 5], return 5
 ```
 class Solution {
 public:
