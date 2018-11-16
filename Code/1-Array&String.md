@@ -268,3 +268,61 @@ public:
     }
 };
 ```
+
+
+LeetCode 128. Longest Consecutive Sequence
+```
+struct Bound
+{
+	int high;
+	int low;
+
+	Bound(int h = 0, int l = 0)
+	{
+		high = h;
+		low = l;
+	}
+};
+
+
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        unordered_map<int, Bound> hashMap;
+
+        int maxLen = 0;
+        for (int i = 0; i < nums.size(); ++i)
+        {
+        	if (hashMap.count(nums[i]))
+        	{
+        		continue;
+        	}
+
+        	int local = nums[i];
+
+        	int low = local, high = local;
+        	if (hashMap.count(local - 1))
+        	{
+        		low = hashMap[local - 1].low;
+        	}
+        	if (hashMap.count(local + 1))
+        	{
+        		high = hashMap[local + 1].high;
+        	}
+
+        	hashMap[local].low = low;
+        	hashMap[local].high = high;
+
+        	hashMap[low].high = high;
+        	hashMap[high].low = low;
+
+        	if (high - low + 1 > maxLen)
+        	{
+        		maxLen = high - low + 1;
+        	}
+        }
+
+        return maxLen;
+    }
+};
+```
