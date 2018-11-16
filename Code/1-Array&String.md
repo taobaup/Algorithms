@@ -331,19 +331,19 @@ LintCode 80. Median
 ```
 class Solution {
 public:
-    /**
-     * @param nums: A list of integers
-     * @return: An integer denotes the middle number of the array
-     */
-    int median(vector<int> &nums) {
-        if (nums.empty())
-        {
-        	return 0;
-        }
+    	/**
+     	* @param nums: A list of integers
+     	* @return: An integer denotes the middle number of the array
+     	*/
+    	int median(vector<int> &nums) {
+        	if (nums.empty())
+        	{
+        		return 0;
+        	}
 
-        int len = nums.size();
-        return helper(nums, 0, len - 1, (len + 1) / 2);
-    }
+        	int len = nums.size();
+        	return helper(nums, 0, len - 1, (len + 1) / 2);
+   	}
 
 private:
 	int helper(vector<int> &nums, int l, int r, int size)
