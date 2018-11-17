@@ -514,7 +514,7 @@ public:
 		int *total = new int[len];
 
 		int i = 0, j = 0, k = 0;
-		while (i < m && j <n)
+		while (i < m && j < n)
 		{
 			if (nums1[i] <= nums2[j])
 			{
