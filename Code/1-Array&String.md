@@ -1,3 +1,91 @@
+字符串匹配
+
+```
+#include<iostream>  
+#include<string>
+
+using namespace std;
+
+bool hasSubString(const char *str, const char *find)
+{
+	if (str[0] == '\0' && find[0] == '\0')
+	{
+		return true;
+	}
+
+	for (int i = 0; str[i] != '\0'; ++i)
+	{
+		bool found = true;
+		for (int j = 0; find[j] != '\0'; ++j)
+		{
+			if (str[i + j] != find[j])
+			{
+				found = false;
+				break;
+			}
+		}
+
+		if (found)
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+bool hasSubString2(const char *str, const char *find)
+{
+	const int m = strlen(str);
+	const int n = strlen(find);
+
+	if (m == 0 && n == 0)
+	{
+		return true;
+	}
+
+	// 注意是 i <= m - n; 而不是 i < m - n;
+	for (int i = 0; i <= m - n; ++i)
+	{
+		bool found = true;
+		for (int j = 0; j < n; ++j)
+		{
+			if (str[i + j] != find[j])
+			{
+				found = false;
+				break;
+			}
+		}
+
+		if (found)
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+int main()
+{
+	char s[] = "leetcode";
+	char t[] = "code";
+
+	bool flag = hasSubString(s, t);
+	cout << flag << endl;
+    flag = hasSubString2(s, t);
+	cout << flag << endl;
+
+	char p[] = "mycode";
+	flag = hasSubString(s, p);
+	cout << flag << endl;
+	flag = hasSubString2(s, p);
+	cout << flag << endl;
+
+	return 0;
+}
+```
+
 Determine if all characters of a string are unique.
 * 一般来说，一旦出现“unique”，就落入使用hash table或者bitset来判断元素出现与否的范畴。
 ```
