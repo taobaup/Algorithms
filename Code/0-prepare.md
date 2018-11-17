@@ -1,3 +1,52 @@
+#### Memmove
+
+有问题的代码
+```
+void *memmove(void *dest, const void *src, size_t n)
+{
+	char *p1 = dest;
+	char *p2 = src;
+	while (*p2 != \0)
+		*p1++ = *p2++;
+	return p1;
+}
+```
+
+#### C语言的陷阱
+* 内存重叠的处理 
+* 临时变量太多或者没安全释放 
+* 没有测试内存越界 
+* 指针操作不熟悉
+
+内存是否重叠？
+
+```
+void *memmove(void *dest, const void *src, size_t n)
+{
+	char *p1 = (char *)dest;
+	const char *p2 = (const char *)src;
+	if (p2 < p1) 
+	{
+		p2 += n;
+		p1 += n;
+
+		while (n-- != 0)
+		{
+			*--p1 = *--p2;
+		}	
+	}
+	else 
+	{
+		while (n-- != 0)
+		{
+			*p1++ = *p2++;
+		}
+	}
+	return p1;
+}
+```
+
+
 #### 全排列
 >字符串“abc”的全排列：
 abc acb bac bca cba cab
