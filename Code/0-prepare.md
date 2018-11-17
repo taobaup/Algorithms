@@ -218,3 +218,52 @@ public:
 举个例子，如果输入abc，它的组合有a、b、c、ab、ac、bc、abc。  
 对于每一个元素，可以有选与不选两个状态，因而从排列第一个元素开始，不选它然后求解 S[2:n]的全子集；选它然后求解S[2:n]的全子集，两个结果的合并就是整个集合的全子集了。
 
+
+LeetCode 47. Permutations II
+```
+class Solution {
+public:
+	vector<vector<int>> permuteUnique(vector<int>& nums) {
+		vector<vector<int>> res;
+		permute(res, nums, 0);
+
+		return res;
+	}
+
+	bool findRepeat(vector<int> &nums, int start, int end)
+	{
+		bool find = false;
+		for (int i = start; i < end; ++i)
+		{
+			if (nums[i] == nums[end])
+			{
+				find = true;
+				break;
+			}
+		}
+
+		return find;
+	}
+
+	//  注意 vector<vector<int>>& res 要用引用
+	void permute(vector<vector<int>>& res, vector<int> &nums, int start)
+	{
+		if (start >= nums.size())
+		{
+			res.push_back(nums);
+		}
+
+		for (int i = start; i < nums.size(); ++i)
+		{
+			if (findRepeat(nums, start, i))
+			{
+				continue;
+			}	
+
+			swap(nums[i], nums[start]);
+			permute(res, nums, start + 1);
+			swap(nums[i], nums[start]);
+		}
+	}
+};
+```
