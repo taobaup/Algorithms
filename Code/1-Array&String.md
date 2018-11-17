@@ -410,8 +410,8 @@ private:
 
 LeetCode 88. Merge Sorted Array
 >Merge Sorted Array
-1. Merge Two Sorted Array into a new Array
-2. Merge Two Sorted Array A and B into A, assume A has enough space.
+>1. Merge Two Sorted Array into a new Array
+>2. Merge Two Sorted Array A and B into A, assume A has enough space.
 
 ```
 class Solution {
