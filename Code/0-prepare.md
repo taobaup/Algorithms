@@ -28,7 +28,7 @@ void Permutation(char *pStr, char *pBegin)
 	}
 }
 
-int main(void)
+int main()
 {
 	char str[] = "abc";
 	Permutation(str, str);
