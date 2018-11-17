@@ -50,10 +50,10 @@ void *memmove(void *dest, const void *src, size_t n)
 LeetCode 226. Invert Binary Tree
 ```
 struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	int val;
+	TreeNode *left;
+	TreeNode *right;
+	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 ```
 
@@ -137,9 +137,9 @@ void Permutation(char *pStr, char *pBegin)
 	{
 		for (char *pCh = pBegin; *pCh != '\0'; ++pCh)
 		{
-			swap(*pBegin, *pCh);
+			swap(*pCh, *pBegin);
 			Permutation(pStr, pBegin + 1);
-			swap(*pBegin, *pCh);
+			swap(*pCh, *pBegin);
 		}
 	}
 }
