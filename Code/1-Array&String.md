@@ -567,3 +567,46 @@ public:
 	}
 };
 ```
+
+LintCode 8. Rotate String
+>Rotate String
+Given a string and an offset, rotate string by offset. (rotate from left to
+right)
+Example
+Given "abcdefg"
+for offset=0, return "abcdefg"
+```
+class Solution {
+public:
+	/**
+	* @param str: An array of char
+	* @param offset: An integer
+	* @return: nothing
+	*/
+	void rotateString(string &str, int offset) {
+		if (str.empty())
+		{
+			return;
+		}
+
+		int len = str.size();
+
+		offset %= len;
+		reverse(str, 0, len - offset - 1);
+		reverse(str, len - offset, len - 1);
+		reverse(str, 0, len - 1);
+	}
+
+private:
+	void reverse(string &str, int start, int end)
+	{
+		while (start < end)
+		{
+			swap(str[start], str[end]);
+			++start;
+			--end;
+		}
+	}
+};
+```
+for offset=1, return "gabcdef"
