@@ -610,3 +610,39 @@ private:
 };
 ```
 
+LeetCode 796. Rotate String
+```
+class Solution {
+public:
+	bool rotateString(string A, string B) {
+		if (A.empty() && B.empty())
+		{
+			return true;
+		}
+
+		if (A.size() != B.size())
+		{
+			return false;
+		}
+
+		int len = A.size();
+		for (int i = 0; i < len; ++i)
+		{
+			if (A.substr(i, len - i) + A.substr(0, i) == B)
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
+};
+```
+```
+class Solution {
+public:
+	bool rotateString(string A, string B) {
+		return A.size() == B.size() && (A + A).find(B) != string::npos;
+	}
+};
+```
