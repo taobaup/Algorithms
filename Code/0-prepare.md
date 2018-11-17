@@ -19,7 +19,7 @@ void Permutation(char *pStr, char *pBegin)
 	}
 	else
 	{
-		for (char* pCh = pBegin; *pCh != '\0'; ++pCh)
+		for (char *pCh = pBegin; *pCh != '\0'; ++pCh)
 		{
 			swap(*pBegin, *pCh);
 			Permutation(pStr, pBegin + 1);
