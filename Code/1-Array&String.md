@@ -570,11 +570,11 @@ public:
 
 LintCode 8. Rotate String
 >Rotate String
-Given a string and an offset, rotate string by offset. (rotate from left to
-right)
-Example
-Given "abcdefg"
-for offset=0, return "abcdefg"
+Given a string and an offset, rotate string by offset. (rotate from left toright) 
+Example 
+Given "abcdefg" 
+for offset=0, return "abcdefg" 
+for offset=1, return "gabcdef"
 ```
 class Solution {
 public:
@@ -609,4 +609,4 @@ private:
 	}
 };
 ```
-for offset=1, return "gabcdef"
+
