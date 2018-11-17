@@ -37,6 +37,38 @@ int main()
 }
 ```
 
+```
+#include<iostream>  
+#include<string>
+
+using namespace std;
+
+void permutationRecursion(string &s, int start)
+{
+	if (start == s.size())
+	{
+		cout << s << endl;
+		return;
+	}
+
+	// 注意这里是 i = start; 而不是 i = 0;
+	for (int i = start; i < s.size(); ++i)
+	{
+		swap(s[i], s[start]);
+		permutationRecursion(s, start + 1);
+		swap(s[i], s[start]);
+	}
+}
+
+int main()
+{
+	string s = "abc";
+	permutationRecursion(s, 0);
+
+	return 0;
+}
+```
+
 LeetCode 46. Permutations
 ```
 class Solution {
