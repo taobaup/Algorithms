@@ -73,7 +73,7 @@ int main()
 
 	bool flag = hasSubString(s, t);
 	cout << flag << endl;
-    flag = hasSubString2(s, t);
+    	flag = hasSubString2(s, t);
 	cout << flag << endl;
 
 	char p[] = "mycode";
