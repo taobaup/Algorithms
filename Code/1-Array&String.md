@@ -409,8 +409,8 @@ private:
 ```
 
 LeetCode 88. Merge Sorted Array
->Merge Sorted Array  
-1. Merge Two Sorted Array into a new Array  
+>Merge Sorted Array
+1. Merge Two Sorted Array into a new Array
 2. Merge Two Sorted Array A and B into A, assume A has enough space.
 
 ```
@@ -455,6 +455,9 @@ public:
 		return;
 	}
 };
+```
+
+```
 class Solution {
 public:
 	void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
