@@ -15,3 +15,8 @@
 |10  | 深度优先搜索
 | :------| :------
 |131 |  Palindrome Partitioning
+
+
+|13  | 动态规划
+| :------| :------
+|132 |  Palindrome Partitioning II
