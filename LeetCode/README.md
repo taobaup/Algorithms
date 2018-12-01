@@ -6,19 +6,20 @@
 [LeetCode中文网站](https://leetcode-cn.com/problemset/algorithms/)
 
 
-|09  | 广度优先搜索
+| 09  | 广度优先搜索
 | :------| :------
-|127 |  Word Ladder
-|130 |  Surrounded Regions
+| 127 |  Word Ladder
+| 130 |  Surrounded Regions
 
 
-|10  | 深度优先搜索
+| 10  | 深度优先搜索
 | :------| :------
-|131 |  Palindrome Partitioning
-|62  |  Unique Paths
-|63  |  Unique Paths II
-
+| 131 |  Palindrome Partitioning
+| 62  |  Unique Paths
+| 63  |  Unique Paths II
+| 51  |  N-Queens
+| 52  |  N-Queens II
 
 |13  | 动态规划
 | :------| :------
-|132 |  Palindrome Partitioning II
+| 132 |  Palindrome Partitioning II
