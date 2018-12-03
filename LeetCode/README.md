@@ -19,6 +19,13 @@
 | 63  |  Unique Paths II
 | 51  |  N-Queens
 | 52  |  N-Queens II
+| 93  |  Restore IP Addresses
+| 39	|  Combination Sum    
+| 40	|  Combination Sum II   
+| 22	|  Generate Parentheses    
+| 37	|  Sudoku Solver    
+| 79	|  Word Search    
+
 
 |13  | 动态规划
 | :------| :------
