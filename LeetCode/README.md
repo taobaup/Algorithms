@@ -35,8 +35,8 @@
 
 | 12  | 贪心
 | :------| :------
-| 55	| Jump Game    
-| 45	| Jump Game II    
+| 55	| [Jump Game](https://github.com/taobaup/Algorithms/blob/master/LeetCode/055.Jump%20Game.md)    
+| 45	| [Jump Game II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/045.Jump%20Game%20II.md)    
 
 
 | 13  | 动态规划
