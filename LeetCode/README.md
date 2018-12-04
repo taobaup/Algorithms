@@ -27,6 +27,18 @@
 | 79	|  [Word Search](https://github.com/taobaup/Algorithms/blob/master/LeetCode/079.Word%20Search.md)
 
 
-|13  | 动态规划
+| 11  | 分治
+| :------| :------
+| 50  | Pow(x, n)
+| 69	| Sqrt(x)    
+
+
+| 12  | 贪心
+| :------| :------
+| 55	| Jump Game    
+| 45	| Jump Game II    
+
+
+| 13  | 动态规划
 | :------| :------
 | 132 |  [Palindrome Partitioning II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/132.Palindrome%20Partitioning%20II.md)
