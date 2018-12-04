@@ -29,7 +29,7 @@
 
 | 11  | 分治
 | :------| :------
-| 50  | Pow(x, n)
+| 50  | [Pow(x, n)](https://github.com/taobaup/Algorithms/blob/master/LeetCode/050.Pow(x,%20n).md)
 | 69	| Sqrt(x)    
 
 
