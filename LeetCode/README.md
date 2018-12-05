@@ -47,5 +47,6 @@
 | 13  | 动态规划
 | :------| :------
 | 120	|   Triangle    
+|	053	|   Maximum Subarray    
 | 132 |  [Palindrome Partitioning II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/132.Palindrome%20Partitioning%20II.md)
 | 123	|  [Best Time to Buy and Sell Stock III](https://github.com/taobaup/Algorithms/blob/master/LeetCode/123.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md)    
