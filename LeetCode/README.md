@@ -30,18 +30,18 @@
 
 | 11  | 分治
 | :------| :------
-| 050 | [Pow(x, n)](https://github.com/taobaup/Algorithms/blob/master/LeetCode/050.Pow(x,%20n).md)
-| 069	| [Sqrt(x)](https://github.com/taobaup/Algorithms/blob/master/LeetCode/069.Sqrt(x).md)    
+| 050 |  [Pow(x, n)](https://github.com/taobaup/Algorithms/blob/master/LeetCode/050.Pow(x,%20n).md)
+| 069	|  [Sqrt(x)](https://github.com/taobaup/Algorithms/blob/master/LeetCode/069.Sqrt(x).md)    
 
 
 | 12  | 贪心
 | :------| :------
-| 055	| [Jump Game](https://github.com/taobaup/Algorithms/blob/master/LeetCode/055.Jump%20Game.md)    
-| 045	| [Jump Game II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/045.Jump%20Game%20II.md)   
-| 121	| [Best Time to Buy and Sell Stock](https://github.com/taobaup/Algorithms/blob/master/LeetCode/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)   
-| 122	| [Best Time to Buy and Sell Stock II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md)    
-| 003	| [Longest Substring Without Repeating Characters](https://github.com/taobaup/Algorithms/blob/master/LeetCode/003.Longest%20Substring%20Without%20Repeating%20Characters.md)
-| 011	| [Container With Most Water](https://github.com/taobaup/Algorithms/blob/master/LeetCode/011.Container%20With%20Most%20Water.md)    
+| 055	|  [Jump Game](https://github.com/taobaup/Algorithms/blob/master/LeetCode/055.Jump%20Game.md)    
+| 045	|  [Jump Game II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/045.Jump%20Game%20II.md)   
+| 121	|  [Best Time to Buy and Sell Stock](https://github.com/taobaup/Algorithms/blob/master/LeetCode/121.Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)   
+| 122	|  [Best Time to Buy and Sell Stock II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md)    
+| 003	|  [Longest Substring Without Repeating Characters](https://github.com/taobaup/Algorithms/blob/master/LeetCode/003.Longest%20Substring%20Without%20Repeating%20Characters.md)
+| 011	|  [Container With Most Water](https://github.com/taobaup/Algorithms/blob/master/LeetCode/011.Container%20With%20Most%20Water.md)    
 
 
 | 13  | 动态规划
@@ -52,3 +52,4 @@
 |	085	|   Maximal Rectangle    
 | 123	|  [Best Time to Buy and Sell Stock III](https://github.com/taobaup/Algorithms/blob/master/LeetCode/123.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md)    
 | 097	|   Interleaving String    
+| 087	|   Scramble String    
