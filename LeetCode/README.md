@@ -5,6 +5,17 @@
 
 [LeetCode中文网站](https://leetcode-cn.com/problemset/algorithms/)
 
+| 2.1  | 数组
+| :------| :------
+| 026	 | Remove Duplicates from Sorted Array    
+| 080	 | Remove Duplicates from Sorted Array II    
+
+
+| 2.2  | 单链表
+| :------| :------
+| 002	 | Add Two Numbers    
+| 092	 | Reverse Linked List II    
+
 
 | 09  | 广度优先搜索
 | :------| :------
