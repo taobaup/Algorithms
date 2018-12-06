@@ -7,7 +7,7 @@
 
 | 2.1  | 数组
 | :------| :------
-| 026	 | Remove Duplicates from Sorted Array    
+| 026	 | [Remove Duplicates from Sorted Array](https://github.com/taobaup/Algorithms/blob/master/LeetCode/026.Remove%20Duplicates%20from%20Sorted%20Array.md)    
 | 080	 | Remove Duplicates from Sorted Array II    
 
 
