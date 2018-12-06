@@ -24,6 +24,15 @@
 | 130 |  [Surrounded Regions](https://github.com/taobaup/Algorithms/blob/master/LeetCode/130.Surrounded%20Regions.md)
 
 
+| 5.1 | 二叉树的遍历
+| :------| :------
+| 144	| Binary Tree Preorder Traversal  
+|	094	| Binary Tree Inorder Traversal    
+| 145	| Binary Tree Postorder Traversal  
+|	102	| Binary Tree Level Order Traversal    
+| 107	| Binary Tree Level Order Traversal II    
+
+
 | 10  | 深度优先搜索
 | :------| :------
 | 131 |  [Palindrome Partitioning](https://github.com/taobaup/Algorithms/blob/master/LeetCode/131.Palindrome%20Partitioning.md)
