@@ -14,7 +14,7 @@
 | 2.2  | 单链表
 | :------| :------
 | 002	 | [Add Two Numbers](https://github.com/taobaup/Algorithms/blob/master/LeetCode/002.Add%20Two%20Numbers.md)    
-| 092	 | Reverse Linked List II    
+| 092	 | [Reverse Linked List II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/092.Reverse%20Linked%20List%20II.md)    
 
 
 | 09  | 广度优先搜索
