@@ -17,6 +17,15 @@
 | 092	 | [Reverse Linked List II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/092.Reverse%20Linked%20List%20II.md)    
 
 
+| 08  | 暴力枚举法
+| :------| :------
+| 078	| Subsets  
+| 090	| Subsets II   
+| 046	| Permutations   
+| 047	| Permutations II    		
+| 077	| Combinations   
+| 017	| Letter Combinations of a Phone Number    
+
 | 09  | 广度优先搜索
 | :------| :------
 | 127 |  [Word Ladder](https://github.com/taobaup/Algorithms/blob/master/LeetCode/127.Word%20Ladder.md)
