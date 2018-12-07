@@ -73,3 +73,4 @@
 | 123	|  [Best Time to Buy and Sell Stock III](https://github.com/taobaup/Algorithms/blob/master/LeetCode/123.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md)    
 | 097	|   Interleaving String    
 | 087	|   Scramble String    
+| 064	|   Minimum Path Sum    
