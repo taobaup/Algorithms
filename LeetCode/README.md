@@ -27,7 +27,7 @@
 | 5.1 | 二叉树的遍历
 | :------| :------
 | 144	| [Binary Tree Preorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/144.Binary%20Tree%20Preorder%20Traversal.md)  
-|	094	| Binary Tree Inorder Traversal    
+|	094	| [Binary Tree Inorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/094.Binary%20Tree%20Inorder%20Traversal.md)    
 | 145	| Binary Tree Postorder Traversal  
 |	102	| Binary Tree Level Order Traversal    
 | 107	| Binary Tree Level Order Traversal II    
