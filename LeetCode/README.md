@@ -24,7 +24,7 @@
 | 046	| Permutations   
 | 047	| Permutations II    		
 | 077	| Combinations   
-| 017	| Letter Combinations of a Phone Number    
+| 017	|  [Letter Combinations of a Phone Number](https://github.com/taobaup/Algorithms/blob/master/LeetCode/017.Letter%20Combinations%20of%20a%20Phone%20Number.md)
 
 | 09  | 广度优先搜索
 | :------| :------
