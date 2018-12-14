@@ -29,9 +29,9 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 078	| [Subsets](https://github.com/taobaup/Algorithms/blob/master/LeetCode/078.Subsets.md)  
 | 090	| [Subsets II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/090.Subsets%20II.md)   
-| 046	| Permutations   
-| 047	| Permutations II    		
-| 077	| Combinations   
+| 046	| [Permutations](https://github.com/taobaup/Algorithms/blob/master/LeetCode/046.Permutations.md)   
+| 047	| [Permutations II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/047.Permutations%20II.md)    		
+| 077	| [Combinations](https://github.com/taobaup/Algorithms/blob/master/LeetCode/077.Combinations.md)   
 | 017	|  [Letter Combinations of a Phone Number](https://github.com/taobaup/Algorithms/blob/master/LeetCode/017.Letter%20Combinations%20of%20a%20Phone%20Number.md)
 
 | 09  | 广度优先搜索
