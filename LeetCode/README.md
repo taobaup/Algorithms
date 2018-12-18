@@ -16,6 +16,13 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 092	 | [Reverse Linked List II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/092.Reverse%20Linked%20List%20II.md)    
 
 
+| 03  | 字符串
+| :------| :------
+| 125  | [ValidPalindrome](https://github.com/taobaup/Algorithms/blob/master/LeetCode/125.Valid%20Palindrome.md) 
+| 028  | [ImplementstrStr()](https://github.com/taobaup/Algorithms/blob/master/LeetCode/028.Implement%20strStr().md) 
+| 008  | [StringtoInteger(atoi)](https://github.com/taobaup/Algorithms/blob/master/LeetCode/008.String%20to%20Integer%20(atoi).md) 
+
+
 | 5.1 | 二叉树的遍历
 | :------| :------
 | 144	| [Binary Tree Preorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/144.Binary%20Tree%20Preorder%20Traversal.md)  
