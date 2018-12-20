@@ -35,6 +35,9 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 145	| [Binary Tree Postorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/145.Binary%20Tree%20Postorder%20Traversal.md)  
 |	102	| [Binary Tree Level Order Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/102.Binary%20Tree%20Level%20Order%20Traversal.md)    
 | 107	| [Binary Tree Level Order Traversal II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/107.Binary%20Tree%20Level%20Order%20Traversal%20II.md)   
+| 103 | [Binary Tree Zigzag LevelOrderTraversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md)
+| 099 | [Recover Binary Search Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/099.Recover%20Binary%20Search%20Tree.md)
+| 100 | [SameTree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/100.Same%20Tree.md)
 
 
 | 08  | 暴力枚举法
