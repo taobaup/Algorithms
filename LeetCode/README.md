@@ -22,8 +22,8 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 028  | [ImplementstrStr()](https://github.com/taobaup/Algorithms/blob/master/LeetCode/028.Implement%20strStr().md) 
 | 008  | [StringtoInteger(atoi)](https://github.com/taobaup/Algorithms/blob/master/LeetCode/008.String%20to%20Integer%20(atoi).md) 
 | 067  | [AddBinary](https://github.com/taobaup/Algorithms/blob/master/LeetCode/067.Add%20Binary.md) 
-|      | [LongestPalindromicSubstring]()
-|      | [RegularExpressionMatching]()
+|      | LongestPalindromicSubstring
+|      | RegularExpressionMatching
 
 
 | 5.1 | 二叉树的遍历
