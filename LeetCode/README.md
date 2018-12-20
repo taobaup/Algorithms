@@ -24,6 +24,8 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 067 | [AddBinary](https://github.com/taobaup/Algorithms/blob/master/LeetCode/067.Add%20Binary.md) 
 | 005 | [LongestPalindromicSubstring](https://github.com/taobaup/Algorithms/blob/master/LeetCode/005.Longest%20Palindromic%20Substring.md)
 | 010 | RegularExpressionMatching
+| 044 | WildcardMatching
+| 014 | [LongestCommonPrefix](https://github.com/taobaup/Algorithms/blob/master/LeetCode/014.Longest%20Common%20Prefix.md)
 
 
 | 5.1 | 二叉树的遍历
