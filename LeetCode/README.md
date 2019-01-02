@@ -45,11 +45,13 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 
 
 | 5.2 | 二叉树的构建
+| :------| :------
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md)
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.md)
 
 
 | 5.3 | 二叉查找树
+| :------| :------
 | 096 | [Unique Binary Search](https://github.com/taobaup/Algorithms/blob/master/LeetCode/096.Unique%20Binary%20Search%20Trees.md)
 | 095 | [Unique Binary Search Trees II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/095.Unique%20Binary%20Search%20Trees%20II.md)
 
