@@ -41,6 +41,17 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 101 | [Symmetric Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/101.Symmetric%20Tree.md)
 | 110 | [Balanced Binary Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/110.Balanced%20Binary%20Tree.md)
 | 114 | [Flatten Binary Tree to Linked List](https://github.com/taobaup/Algorithms/blob/master/LeetCode/114.Flatten%20Binary%20Tree%20to%20Linked%20List.md)
+| 117 | [Populating Next Right Pointers in Each Node II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/117.Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md)
+
+
+| 5.2 | 二叉树的构建
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md)
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.md)
+
+
+| 5.3 | 二叉查找树
+| 096 | [Unique Binary Search](https://github.com/taobaup/Algorithms/blob/master/LeetCode/096.Unique%20Binary%20Search%20Trees.md)
+| 095 | [Unique Binary Search Trees II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/095.Unique%20Binary%20Search%20Trees%20II.md)
 
 
 | 08  | 暴力枚举法
