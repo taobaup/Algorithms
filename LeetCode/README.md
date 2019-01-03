@@ -129,7 +129,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 064	|  [Minimum Path Sum](https://github.com/taobaup/Algorithms/blob/master/LeetCode/064.Minimum%20Path%20Sum.md)    
 
 
-| 015 | 细节实现题
+| 15  | 细节实现题
 | :------| :------
 | 007 | [Reverse Integer](https://github.com/taobaup/Algorithms/blob/master/LeetCode/007.Reverse%20Integer.md)
 | 009 | [Palindrome Number](https://github.com/taobaup/Algorithms/blob/master/LeetCode/009.Palindrome%20Number.md)
