@@ -63,6 +63,11 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 111 | [Minimum Depth of Binary Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/111.Minimum%20Depth%20of%20Binary%20Tree.md)
 | 104 | [Maximum Depth of Binary Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/104.Maximum%20Depth%20of%20Binary%20Tree.md)
+| 112 | [Path Sum](https://github.com/taobaup/Algorithms/blob/master/LeetCode/112.Path%20Sum.md)
+| 113 | [Path Sum II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/113.Path%20Sum%20II.md)
+| 124 | [Binary Tree Maximum Path Sum](https://github.com/taobaup/Algorithms/blob/master/LeetCode/124.Binary%20Tree%20Maximum%20Path%20Sum.md)
+| 116 | [Populating Next Right Pointers in Each Node](https://github.com/taobaup/Algorithms/blob/master/LeetCode/116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md)
+| 129 | [Sum Root to Leaf Numbers](https://github.com/taobaup/Algorithms/blob/master/LeetCode/129.Sum%20Root%20to%20Leaf%20Numbers.md)
 
 
 | 08  | 暴力枚举法
