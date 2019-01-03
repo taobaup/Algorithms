@@ -127,3 +127,12 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 097	|  [Interleaving String](https://github.com/taobaup/Algorithms/blob/master/LeetCode/097.Interleaving%20String.md)    
 | 087	|   Scramble String    
 | 064	|  [Minimum Path Sum](https://github.com/taobaup/Algorithms/blob/master/LeetCode/064.Minimum%20Path%20Sum.md)    
+
+
+| 015 | 细节实现题
+| :------| :------
+| 007 | [Reverse Integer](https://github.com/taobaup/Algorithms/blob/master/LeetCode/007.Reverse%20Integer.md)
+| 009 | [Palindrome Number](https://github.com/taobaup/Algorithms/blob/master/LeetCode/009.Palindrome%20Number.md)
+| 057 | [Insert Interval](https://github.com/taobaup/Algorithms/blob/master/LeetCode/057.Insert%20Interval.md) 
+| 056 | [Merge Intervals](https://github.com/taobaup/Algorithms/blob/master/LeetCode/056.Merge%20Intervals.md) 
+| 076 | [Minimum Window Substring](https://github.com/taobaup/Algorithms/blob/master/LeetCode/076.Minimum%20Window%20Substring.md) 
