@@ -54,6 +54,15 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 096 | [Unique Binary Search](https://github.com/taobaup/Algorithms/blob/master/LeetCode/096.Unique%20Binary%20Search%20Trees.md)
 | 095 | [Unique Binary Search Trees II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/095.Unique%20Binary%20Search%20Trees%20II.md)
+| 098 | [Validate Binary Search Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/098.Validate%20Binary%20Search%20Tree.md) 
+| 108 | [Convert Sorted Array to Binary Search Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/108.Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md) 
+| 109 | [Convert Sorted List to Binary Search Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/109.Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.md) 
+
+
+| 5.4 | 二叉树的递归
+| :------| :------
+| 111 | [Minimum Depth of Binary Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/111.Minimum%20Depth%20of%20Binary%20Tree.md)
+| 104 | [Maximum Depth of Binary Tree](https://github.com/taobaup/Algorithms/blob/master/LeetCode/104.Maximum%20Depth%20of%20Binary%20Tree.md)
 
 
 | 08  | 暴力枚举法
