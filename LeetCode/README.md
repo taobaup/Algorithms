@@ -8,6 +8,28 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 026	 | Remove Duplicates from Sorted Array
 | 080	 | Remove Duplicates from Sorted Array II 
+| 033 | Search in Rotated Sorted Array 
+| 081 | Search in Rotated Sorted Array II 
+| 004 | Median of Two Sorted Arrays 
+| 128 | Longest Consecutive Sequence 
+| 001 | Two Sum 
+| 015 | 3Sum 
+| 016 | 3Sum Closest 
+| 018 | 4Sum 
+| 027 | Remove Element 
+| 031 | Next Permutation 
+| 060 | Permutation Sequence 
+| 036 | Valid Sudoku 
+| 042 | Trapping Rain Water 
+| 048 | Rotate Image
+| 066 | Plus One 
+| 070 | Climbing Stairs 
+| 089 | Gray Code 
+| 073 | Set Matrix Zeroes 
+| 134 | Gas Station 
+| 135 | Candy 
+| 136 | Single Number 
+| 137 | Single Number II 
 
 
 | 2.2  | 单链表
