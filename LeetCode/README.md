@@ -159,7 +159,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 131 | Palindrome Partitioning
 | 062 | Unique Paths
-| 063 | Unique Paths II)
+| 063 | Unique Paths II
 | 051 | N-Queens
 | 052 | N-Queens II
 | 093 | Restore IP Addresses
