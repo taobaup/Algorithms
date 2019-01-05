@@ -14,6 +14,19 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 002	 | Add Two Numbers  
 | 092	 | Reverse Linked List II
+| 086  | Partition List 
+| 083  | Remove Duplicates from Sorted List 
+| 082  | Remove Duplicates from Sorted List II 
+| 061  | Rotate List 
+| 019  | Remove Nth Node From End of List 
+| 024  | Swap Nodes in Pairs 
+| 025  | Reverse Nodes in k-Group
+| 138  | Copy List with Random Pointer
+| 141  | Linked List Cycle 
+| 142  | Linked List Cycle II 
+| 143  | Reorder List 
+| 146  | LRU Cache 
+
 
 
 | 03  | 字符串
