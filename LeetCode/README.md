@@ -96,6 +96,13 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 075 | [Sort Colors](https://github.com/taobaup/Algorithms/blob/master/LeetCode/075.Sort%20Colors.md)
 
 
+| 07  | 查找
+| :------| :------
+| 034 | Find First and Last Position of Element in Sorted Array
+| 035 | Search Insert Position
+| 074 | Search a 2D Matrix
+
+
 | 08  | 暴力枚举法
 | :------| :------
 | 078	| [Subsets](https://github.com/taobaup/Algorithms/blob/master/LeetCode/078.Subsets.md)  
