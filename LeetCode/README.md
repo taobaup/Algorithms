@@ -28,6 +28,14 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 014 | [LongestCommonPrefix](https://github.com/taobaup/Algorithms/blob/master/LeetCode/014.Longest%20Common%20Prefix.md)
 
 
+| 4.1 | 栈
+| :------| :------
+| 020 | [Valid Parentheses](https://github.com/taobaup/Algorithms/blob/master/LeetCode/020.Valid%20Parentheses.md)
+| 032 | [Longest Valid Parentheses](https://github.com/taobaup/Algorithms/blob/master/LeetCode/032.Longest%20Valid%20Parentheses.md)
+| 084 | [Largest Rectangle in Histogram](https://github.com/taobaup/Algorithms/blob/master/LeetCode/084.Largest%20Rectangle%20in%20Histogram.md)
+| 150 | [Evaluate Reverse Polish Notation](https://github.com/taobaup/Algorithms/blob/master/LeetCode/150.Evaluate%20Reverse%20Polish%20Notation.md)
+
+
 | 5.1 | 二叉树的遍历
 | :------| :------
 | 144	| [Binary Tree Preorder Traversal](https://github.com/taobaup/Algorithms/blob/master/LeetCode/144.Binary%20Tree%20Preorder%20Traversal.md)  
