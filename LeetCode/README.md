@@ -126,7 +126,17 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 123	|  [Best Time to Buy and Sell Stock III](https://github.com/taobaup/Algorithms/blob/master/LeetCode/123.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md)    
 | 097	|  [Interleaving String](https://github.com/taobaup/Algorithms/blob/master/LeetCode/097.Interleaving%20String.md)    
 | 087	|   Scramble String    
-| 064	|  [Minimum Path Sum](https://github.com/taobaup/Algorithms/blob/master/LeetCode/064.Minimum%20Path%20Sum.md)    
+| 064	|  [Minimum Path Sum](https://github.com/taobaup/Algorithms/blob/master/LeetCode/064.Minimum%20Path%20Sum.md)   
+| 072 | [Edit Distance](https://github.com/taobaup/Algorithms/blob/master/LeetCode/072.Edit%20Distance.md)
+| 091 | Decode Ways
+| 115 | [Distinct Subsequences](https://github.com/taobaup/Algorithms/blob/master/LeetCode/115.Distinct%20Subsequences.md)
+| 139 | [Word Break](https://github.com/taobaup/Algorithms/blob/master/LeetCode/139.Word%20Break.md)
+| 140 | [Word Break II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/140.Word%20Break%20II.md)
+
+
+| 014 | 图
+| :------| :------
+| 133 | [Clone Graph](https://github.com/taobaup/Algorithms/blob/master/LeetCode/133.Clone%20Graph.md)
 
 
 | 15  | 细节实现题
