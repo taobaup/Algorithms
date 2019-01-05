@@ -26,6 +26,13 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 010 | RegularExpressionMatching
 | 044 | WildcardMatching
 | 014 | [LongestCommonPrefix](https://github.com/taobaup/Algorithms/blob/master/LeetCode/014.Longest%20Common%20Prefix.md)
+| 065 | Valid Number 
+| 012 | [Integer to Roman](https://github.com/taobaup/Algorithms/blob/master/LeetCode/012.Integer%20to%20Roman.md)
+| 013 | [Roman to Integer](https://github.com/taobaup/Algorithms/blob/master/LeetCode/013.Roman%20to%20Integer.md)
+| 038 | [Count and Say](https://github.com/taobaup/Algorithms/blob/master/LeetCode/038.Count%20and%20Say.md) 
+| 049 | [Group Anagrams](https://github.com/taobaup/Algorithms/blob/master/LeetCode/049.Group%20Anagrams.md) 
+| 071 | Simplify Path
+| 058 | [Length of Last Word](https://github.com/taobaup/Algorithms/blob/master/LeetCode/058.Length%20of%20Last%20Word.md) 
 
 
 | 4.1 | 栈
