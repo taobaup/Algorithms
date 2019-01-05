@@ -85,6 +85,17 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 129 | [Sum Root to Leaf Numbers](https://github.com/taobaup/Algorithms/blob/master/LeetCode/129.Sum%20Root%20to%20Leaf%20Numbers.md)
 
 
+| 06 | 排序
+| :------| :------
+| 088 | [Merge Sorted Array](https://github.com/taobaup/Algorithms/blob/master/LeetCode/088.Merge%20Sorted%20Array.md)
+| 021 | [Merge Two Sorted Lists](https://github.com/taobaup/Algorithms/blob/master/LeetCode/021.Merge%20Two%20Sorted%20Lists.md)
+| 023 | [Merge k Sorted Lists](https://github.com/taobaup/Algorithms/blob/master/LeetCode/023.Merge%20k%20Sorted%20Lists.md)
+| 147 | [Insertion Sort List](https://github.com/taobaup/Algorithms/blob/master/LeetCode/147.Insertion%20Sort%20List.md)
+| 148 | [Sort List](https://github.com/taobaup/Algorithms/blob/master/LeetCode/148.Sort%20List.md)
+| 041 | [First Missing Positive](https://github.com/taobaup/Algorithms/blob/master/LeetCode/041.First%20Missing%20Positive.md)
+| 075 | [Sort Colors](https://github.com/taobaup/Algorithms/blob/master/LeetCode/075.Sort%20Colors.md)
+
+
 | 08  | 暴力枚举法
 | :------| :------
 | 078	| [Subsets](https://github.com/taobaup/Algorithms/blob/master/LeetCode/078.Subsets.md)  
