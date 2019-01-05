@@ -142,3 +142,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 119 | [Pascal’s Triangle II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/119.Pascal's%20Triangle%20II.md)
 | 054 | [Spiral Matrix](https://github.com/taobaup/Algorithms/blob/master/LeetCode/054.Spiral%20Matrix.md)
 | 059 | [Spiral Matrix II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/059.Spiral%20Matrix%20II.md)
+| 006 | [ZigZag Conversion](https://github.com/taobaup/Algorithms/blob/master/LeetCode/006.ZigZag%20Conversion.md)
+| 029 | [Divide Two Integers](https://github.com/taobaup/Algorithms/blob/master/LeetCode/029.Divide%20Two%20Integers.md)
+| 068 | Text Justification 
+| 149 | [Max Points on a Line](https://github.com/taobaup/Algorithms/blob/master/LeetCode/149.Max%20Points%20on%20a%20Line.md)
