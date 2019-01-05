@@ -134,7 +134,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 140 | [Word Break II](https://github.com/taobaup/Algorithms/blob/master/LeetCode/140.Word%20Break%20II.md)
 
 
-| 014 | 图
+| 14  | 图
 | :------| :------
 | 133 | [Clone Graph](https://github.com/taobaup/Algorithms/blob/master/LeetCode/133.Clone%20Graph.md)
 
