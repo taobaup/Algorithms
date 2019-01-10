@@ -34,7 +34,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 
 | 2.2  | 单链表
 | :------| :------
-| 002	 | Add Two Numbers  
+|  002  |  Add Two Numbers/两数相加
 | 092	 | Reverse Linked List II
 | 086  | Partition List 
 | 083  | Remove Duplicates from Sorted List 
