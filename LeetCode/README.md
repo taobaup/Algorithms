@@ -4,15 +4,15 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 
 
 
-| 2.1  | 数组
+|  2.1  |  数组 
 | :------| :------
-| 026	 | Remove Duplicates from Sorted Array
-| 080	 | Remove Duplicates from Sorted Array II 
-| 033 | Search in Rotated Sorted Array 
-| 081 | Search in Rotated Sorted Array II 
-| 004 | Median of Two Sorted Arrays 
-| 128 | Longest Consecutive Sequence 
-| 001 | Two Sum 
+| 026	 | Remove Duplicates from Sorted Array   
+| 080	 | Remove Duplicates from Sorted Array II    
+| 033 | Search in Rotated Sorted Array   
+| 081 | Search in Rotated Sorted Array II  
+| 004 | Median of Two Sorted Arrays   
+| 128 | Longest Consecutive Sequence  
+|  001  |  Two Sum/两数之和
 | 015 | 3Sum 
 | 016 | 3Sum Closest 
 | 018 | 4Sum 
