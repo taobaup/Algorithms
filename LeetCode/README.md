@@ -10,7 +10,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 080	 | Remove Duplicates from Sorted Array II    
 | 033 | Search in Rotated Sorted Array   
 | 081 | Search in Rotated Sorted Array II  
-| 004 | Median of Two Sorted Arrays   
+|  004  |  Median of Two Sorted Arrays/寻找两个有序数组的中位数 
 | 128 | Longest Consecutive Sequence  
 |  001  |  Two Sum/两数之和
 | 015 | 3Sum 
@@ -55,15 +55,15 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 125 | ValidPalindrome
 | 028 | ImplementstrStr()
-| 008 | StringtoInteger(atoi)
+|  008  |  StringtoInteger(atoi)/字符串转换整数(atoi)
 | 067 | AddBinary
-| 005 | LongestPalindromicSubstring
-| 010 | RegularExpressionMatching
+|  005  |  LongestPalindromicSubstring/最长回文子串
+|  010  |  RegularExpressionMatching
 | 044 | WildcardMatching
 | 014 | LongestCommonPrefix
 | 065 | Valid Number 
-| 012 | Integer to Roman
-| 013 | Roman to Integer
+|  012  |  Integer to Roman/整数转罗马数字
+|  013  |  Roman to Integer/罗马数字转整数
 | 038 | Count and Say
 | 049 | Group Anagrams
 | 071 | Simplify Path
@@ -182,8 +182,8 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 045	| Jump Game II
 | 121	| Best Time to Buy and Sell Stock
 | 122	| Best Time to Buy and Sell Stock II 
-| 003	| Longest Substring Without Repeating Characters
-| 011	| Container With Most Water  
+|  003  |  Longest Substring Without Repeating Characters/无重复字符的最长子串
+|  011  |  Container With Most Water/盛最多水的容器  
 
 
 | 13  | 动态规划
@@ -210,8 +210,8 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 
 | 15  | 细节实现题
 | :------| :------
-| 007 | Reverse Integer
-| 009 | Palindrome Number
+|  007  |  Reverse Integer/整数反转
+|  009  |  Palindrome Number/回文数
 | 057 | Insert Interval
 | 056 | Merge Intervals
 | 076 | Minimum Window Substring
@@ -221,7 +221,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 119 | Pascal’s Triangle II
 | 054 | Spiral Matrix
 | 059 | Spiral Matrix II
-| 006 | ZigZag Conversion
+|  006  |  ZigZag Conversion/Z字形变换
 | 029 | Divide Two Integers
 | 068 | Text Justification 
 | 149 | Max Points on a Line
