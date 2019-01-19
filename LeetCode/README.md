@@ -13,7 +13,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  004  |  Median of Two Sorted Arrays/寻找两个有序数组的中位数 
 | 128 | Longest Consecutive Sequence  
 |  001  |  Two Sum/两数之和
-| 015 | 3Sum 
+|  015  |  3Sum/三数之和 
 | 016 | 3Sum Closest 
 | 018 | 4Sum 
 | 027 | Remove Element 
@@ -60,7 +60,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  005  |  LongestPalindromicSubstring/最长回文子串
 |  010  |  RegularExpressionMatching
 | 044 | WildcardMatching
-| 014 | LongestCommonPrefix
+|  014  |  LongestCommonPrefix/最长公共前缀
 | 065 | Valid Number 
 |  012  |  Integer to Roman/整数转罗马数字
 |  013  |  Roman to Integer/罗马数字转整数
