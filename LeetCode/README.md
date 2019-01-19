@@ -14,7 +14,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 128 | Longest Consecutive Sequence  
 |  001  |  Two Sum/两数之和
 |  015  |  3Sum/三数之和 
-| 016 | 3Sum Closest 
+|  016  |  3Sum Closest/最接近的三数之和
 | 018 | 4Sum 
 | 027 | Remove Element 
 | 031 | Next Permutation 
@@ -145,7 +145,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 046	| Permutations
 | 047	| Permutations II  		
 | 077	| Combinations
-| 017	| Letter Combinations of a Phone Number
+|  017  |  Letter Combinations of a Phone Number/电话号码的字母组合
 
 
 | 09  | 广度优先搜索
