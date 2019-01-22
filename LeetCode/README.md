@@ -15,7 +15,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  001  |  Two Sum/两数之和
 |  015  |  3Sum/三数之和 
 |  016  |  3Sum Closest/最接近的三数之和
-| 018 | 4Sum 
+|  018  |  4Sum/四数之和 
 | 027 | Remove Element 
 | 031 | Next Permutation 
 | 060 | Permutation Sequence 
@@ -40,7 +40,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 083  | Remove Duplicates from Sorted List 
 | 082  | Remove Duplicates from Sorted List II 
 | 061  | Rotate List 
-| 019  | Remove Nth Node From End of List 
+|  019  |  Remove Nth Node From End of List/删除链表的倒数第N个节点
 | 024  | Swap Nodes in Pairs 
 | 025  | Reverse Nodes in k-Group
 | 138  | Copy List with Random Pointer
@@ -72,7 +72,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 
 | 4.1 | 栈
 | :------| :------
-| 020 | Valid Parentheses
+|  020  |  Valid Parentheses/有效的括号
 | 032 | Longest Valid Parentheses
 | 084 | Largest Rectangle in Histogram
 | 150 | Evaluate Reverse Polish Notation
@@ -123,7 +123,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 06 | 排序
 | :------| :------
 | 088 | Merge Sorted Array
-| 021 | Merge Two Sorted Lists
+|  021  |  Merge Two Sorted Lists/合并两个有序链表
 | 023 | Merge k Sorted Lists
 | 147 | Insertion Sort List
 | 148 | Sort List
@@ -165,7 +165,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 093 | Restore IP Addresses
 | 039	| Combination Sum
 | 040	| Combination Sum II
-| 022	| Generate Parentheses
+|  022  |  Generate Parentheses/括号生成
 | 037	| Sudoku Solver
 | 079	| Word Search
 
