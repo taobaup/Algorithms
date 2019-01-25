@@ -41,7 +41,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 082  | Remove Duplicates from Sorted List II 
 | 061  | Rotate List 
 |  019  |  Remove Nth Node From End of List/删除链表的倒数第N个节点
-| 024  | Swap Nodes in Pairs 
+|  024  |  Swap Nodes in Pairs/两两交换链表中的节点 
 | 025  | Reverse Nodes in k-Group
 | 138  | Copy List with Random Pointer
 | 141  | Linked List Cycle 
@@ -124,7 +124,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 088 | Merge Sorted Array
 |  021  |  Merge Two Sorted Lists/合并两个有序链表
-| 023 | Merge k Sorted Lists
+|  023  |  Merge k Sorted Lists/合并K个排序链表
 | 147 | Insertion Sort List
 | 148 | Sort List
 | 041 | First Missing Positive
