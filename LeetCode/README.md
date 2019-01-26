@@ -16,7 +16,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  015  |  3Sum/三数之和 
 |  016  |  3Sum Closest/最接近的三数之和
 |  018  |  4Sum/四数之和 
-| 027 | Remove Element 
+|  027  |  Remove Element/移除元素
 | 031 | Next Permutation 
 | 060 | Permutation Sequence 
 | 036 | Valid Sudoku 
