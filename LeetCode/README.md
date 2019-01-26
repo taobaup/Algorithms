@@ -54,7 +54,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 03  | 字符串
 | :------| :------
 | 125 | ValidPalindrome
-| 028 | ImplementstrStr()
+|  028  |  ImplementstrStr()/实现strStr()
 |  008  |  StringtoInteger(atoi)/字符串转换整数(atoi)
 | 067 | AddBinary
 |  005  |  LongestPalindromicSubstring/最长回文子串
