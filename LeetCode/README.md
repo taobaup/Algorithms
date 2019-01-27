@@ -216,12 +216,12 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 056 | Merge Intervals
 | 076 | Minimum Window Substring
 | 043 | Multiply Strings
-| 030 | Substring with Concatenation of All Words
+|  030  |  Substring with Concatenation of All Words/串联所有单词的子串
 | 118 | Pascal’s Triangle
 | 119 | Pascal’s Triangle II
 | 054 | Spiral Matrix
 | 059 | Spiral Matrix II
 |  006  |  ZigZag Conversion/Z字形变换
-| 029 | Divide Two Integers
+|  029  |  Divide Two Integers/两数相除
 | 068 | Text Justification 
 | 149 | Max Points on a Line
