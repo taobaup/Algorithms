@@ -17,7 +17,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  016  |  3Sum Closest/最接近的三数之和
 |  018  |  4Sum/四数之和 
 |  027  |  Remove Element/移除元素
-|  031  |  Next Permutation 
+|  031  |  Next Permutation/下一个排列
 | 060 | Permutation Sequence 
 | 036 | Valid Sudoku 
 | 042 | Trapping Rain Water 
@@ -73,7 +73,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 4.1 | 栈
 | :------| :------
 |  020  |  Valid Parentheses/有效的括号
-|  032  |  Longest Valid Parentheses
+|  032  |  Longest Valid Parentheses/最长有效括号
 | 084 | Largest Rectangle in Histogram
 | 150 | Evaluate Reverse Polish Notation
 
