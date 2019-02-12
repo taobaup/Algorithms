@@ -1,3 +1,7 @@
+英文链接: https://leetcode.com/problems/next-permutation/  
+中文链接: https://leetcode-cn.com/problems/next-permutation/
+
+
 ```
 1　　(2)　　7　　4　　3　　1
 
