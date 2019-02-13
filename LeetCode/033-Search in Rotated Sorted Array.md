@@ -1,3 +1,6 @@
+英文链接: https://leetcode.com/problems/search-in-rotated-sorted-array/  
+中文链接: https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+
 ```
 class Solution {
 public:
