@@ -8,7 +8,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 026	 | Remove Duplicates from Sorted Array   
 | 080	 | Remove Duplicates from Sorted Array II    
-| 033 | Search in Rotated Sorted Array   
+|  033  |  Search in Rotated Sorted Array/搜索旋转排序数组  
 | 081 | Search in Rotated Sorted Array II  
 |  004  |  Median of Two Sorted Arrays/寻找两个有序数组的中位数 
 | 128 | Longest Consecutive Sequence  
@@ -133,7 +133,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 
 | 07  | 查找
 | :------| :------
-| 034 | Find First and Last Position of Element in Sorted Array
+|  034  |  Find First and Last Position of Element in Sorted Array/在排序数组中查找元素的第一个和最后一个位置
 | 035 | Search Insert Position
 | 074 | Search a 2D Matrix
 
