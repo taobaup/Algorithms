@@ -21,7 +21,7 @@ public:
         while(r < nums.size() - 1 && nums[r + 1] == nums[l])
         	++r;
 
-        if(l < 0 || l > nums.size())
+        if(r < 0 || r > nums.size())
         	return result;
         
         if(r < l)
