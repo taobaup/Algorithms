@@ -1,3 +1,6 @@
+英文链接: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/  
+中文链接: https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
 ```
 class Solution {
 public:
