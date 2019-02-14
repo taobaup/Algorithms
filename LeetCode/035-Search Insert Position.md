@@ -1,3 +1,6 @@
+英文链接: https://leetcode.com/problems/search-insert-position/  
+中文链接: https://leetcode-cn.com/problems/search-insert-position/
+
 ```
 class Solution {
 public:
