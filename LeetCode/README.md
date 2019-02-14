@@ -64,7 +64,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 065 | Valid Number 
 |  012  |  Integer to Roman/整数转罗马数字
 |  013  |  Roman to Integer/罗马数字转整数
-| 038 | Count and Say
+|  038  |  Count and Say/报数    
 | 049 | Group Anagrams
 | 071 | Simplify Path
 | 058 | Length of Last Word
@@ -134,7 +134,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 07  | 查找
 | :------| :------
 |  034  |  Find First and Last Position of Element in Sorted Array/在排序数组中查找元素的第一个和最后一个位置
-| 035 | Search Insert Position
+|  035  |  Search Insert Position/搜索插入位置
 | 074 | Search a 2D Matrix
 
 
