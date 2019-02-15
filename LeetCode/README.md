@@ -19,7 +19,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  027  |  Remove Element/移除元素
 |  031  |  Next Permutation/下一个排列
 | 060 | Permutation Sequence 
-| 036 | Valid Sudoku 
+|  036  |  Valid Sudoku/有效的数独
 | 042 | Trapping Rain Water 
 | 048 | Rotate Image
 | 066 | Plus One 
@@ -166,7 +166,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 039	| Combination Sum
 | 040	| Combination Sum II
 |  022  |  Generate Parentheses/括号生成
-| 037	| Sudoku Solver
+|  037  |  Sudoku Solver/解数独
 | 079	| Word Search
 
 
