@@ -1,3 +1,7 @@
+英文链接: https://leetcode.com/problems/valid-sudoku/  
+中文链接: https://leetcode-cn.com/problems/valid-sudoku/
+
+
 >验证一个方阵是否为数独矩阵
 
 
