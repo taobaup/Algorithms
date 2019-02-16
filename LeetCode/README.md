@@ -163,8 +163,8 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 051 | N-Queens
 | 052 | N-Queens II
 | 093 | Restore IP Addresses
-| 039	| Combination Sum
-| 040	| Combination Sum II
+|  039  |  Combination Sum/组合总和    
+|  040  |  Combination Sum II/组合总和 II
 |  022  |  Generate Parentheses/括号生成
 |  037  |  Sudoku Solver/解数独
 | 079	| Word Search
