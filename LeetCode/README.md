@@ -20,7 +20,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  031  |  Next Permutation/下一个排列
 | 060 | Permutation Sequence 
 |  036  |  Valid Sudoku/有效的数独
-| 042 | Trapping Rain Water 
+|  042  |  Trapping Rain Water/接雨水
 | 048 | Rotate Image
 | 066 | Plus One 
 | 070 | Climbing Stairs 
@@ -127,7 +127,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  023  |  Merge k Sorted Lists/合并K个排序链表
 | 147 | Insertion Sort List
 | 148 | Sort List
-| 041 | First Missing Positive
+|  041  |  First Missing Positive/缺失的第一个正数
 | 075 | Sort Colors
 
 
