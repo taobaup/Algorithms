@@ -1,3 +1,7 @@
+英文链接: https://leetcode.com/problems/trapping-rain-water/  
+中文链接: https://leetcode-cn.com/problems/trapping-rain-water/
+
+
 ```
 class Solution {
 public:
