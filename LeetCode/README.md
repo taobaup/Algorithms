@@ -215,7 +215,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 057 | Insert Interval
 | 056 | Merge Intervals
 | 076 | Minimum Window Substring
-| 043 | Multiply Strings
+|  043  |  Multiply Strings/字符串相乘
 |  030  |  Substring with Concatenation of All Words/串联所有单词的子串
 | 118 | Pascal’s Triangle
 | 119 | Pascal’s Triangle II
