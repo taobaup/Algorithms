@@ -21,7 +21,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 060 | Permutation Sequence 
 |  036  |  Valid Sudoku/有效的数独
 |  042  |  Trapping Rain Water/接雨水
-| 048 | Rotate Image
+|  048  |  Rotate Image/旋转图像
 | 066 | Plus One 
 | 070 | Climbing Stairs 
 | 089 | Gray Code 
@@ -179,7 +179,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | 12  | 贪心
 | :------| :------
 | 055	| Jump Game
-| 045	| Jump Game II
+|  045  |  Jump Game II/跳跃游戏 II
 | 121	| Best Time to Buy and Sell Stock
 | 122	| Best Time to Buy and Sell Stock II 
 |  003  |  Longest Substring Without Repeating Characters/无重复字符的最长子串
