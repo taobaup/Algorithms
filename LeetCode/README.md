@@ -65,7 +65,7 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 |  012  |  Integer to Roman/整数转罗马数字
 |  013  |  Roman to Integer/罗马数字转整数
 |  038  |  Count and Say/报数    
-| 049 | Group Anagrams
+|  049  |  Group Anagrams/字母异位词分组
 | 071 | Simplify Path
 | 058 | Length of Last Word
 
