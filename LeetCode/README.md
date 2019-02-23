@@ -142,8 +142,8 @@ LeetCode中文网站: https://leetcode-cn.com/problemset/all/
 | :------| :------
 | 078	| Subsets 
 | 090	| Subsets II 
-| 046	| Permutations
-| 047	| Permutations II  		
+|  046  |  Permutations/全排列    
+|  047  |  Permutations II/全排列 II 		
 | 077	| Combinations
 |  017  |  Letter Combinations of a Phone Number/电话号码的字母组合
 
