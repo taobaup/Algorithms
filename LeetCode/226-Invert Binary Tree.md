@@ -1,3 +1,6 @@
+英文链接: https://leetcode.com/problems/invert-binary-tree/  
+中文链接: https://leetcode-cn.com/problems/invert-binary-tree/
+
 ```
 struct TreeNode {
 	int val;
