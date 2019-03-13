@@ -1,3 +1,7 @@
+英文链接: https://leetcode.com/problems/lru-cache/  
+中文链接: https://leetcode-cn.com/problems/lru-cache/
+
+
 ```
 class LRUCache{
 private:
