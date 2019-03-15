@@ -1,3 +1,7 @@
+
+英文链接: https://leetcode.com/problems/design-circular-queue/  
+中文链接: https://leetcode-cn.com/problems/design-circular-queue/
+
 能通过，但不满足题意
 
 ```
