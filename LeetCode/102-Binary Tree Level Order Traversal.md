@@ -73,7 +73,9 @@ public:
 				{
 					q.push(node->left);
 				}
-				else if (node->right != NULL)
+				
+                		// 这里一定不要写成 else if
+                		if (node->right != NULL)
 				{
 					q.push(node->right);
 				}
@@ -86,5 +88,4 @@ public:
 		return res;
 	}
 };
-
 ```
