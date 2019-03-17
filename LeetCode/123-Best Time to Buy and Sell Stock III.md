@@ -1,6 +1,8 @@
 英文链接: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/  
 中文链接: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
 
+最多可以完成两笔交易
+
 ```
 class Solution {
 public:
