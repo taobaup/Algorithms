@@ -1,6 +1,7 @@
 英文链接: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/  
 中文链接: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
+可以尽可能地完成更多的交易（多次买卖一支股票）
 
 ```
 class Solution {
