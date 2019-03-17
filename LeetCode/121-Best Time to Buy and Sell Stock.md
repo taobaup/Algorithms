@@ -1,6 +1,8 @@
 英文链接: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/  
 中文链接: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
+最多只允许完成一笔交易（即买入和卖出一支股票）
+
 ```
 class Solution {
 public:
