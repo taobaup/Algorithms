@@ -33,8 +33,8 @@ public:
         		queue1.pop();
         		queue2.push(temp);  
                 
-                if(queue1.size() == 1)
-                    top_num = temp;
+                	if(queue1.size() == 1)
+                    		top_num = temp;
         	}
             
         	x = queue1.front();
@@ -48,8 +48,8 @@ public:
         		queue2.pop();
         		queue1.push(temp);
                 
-                if(queue2.size() == 1)
-                    top_num = temp;
+                	if(queue2.size() == 1)
+                    		top_num = temp;
         	}
 
         	x = queue2.front();
