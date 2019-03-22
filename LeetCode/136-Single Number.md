@@ -1,3 +1,6 @@
+英文链接: https://leetcode.com/problems/single-number/  
+中文链接: https://leetcode-cn.com/problems/single-number/
+
 ```
 class Solution {
 public:
@@ -17,5 +20,3 @@ public:
     }
 };
 ```
-
-[一道让你拍案叫绝的算法题](https://mp.weixin.qq.com/s/kQeNRmTKCPPjhM_cRvxTJg)
