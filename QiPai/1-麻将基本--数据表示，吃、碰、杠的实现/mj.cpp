@@ -167,7 +167,7 @@ void peng(char* cards, std::vector<CHI_PENG_GANG>& chi_peng_gang,
 	chi_peng_gang.push_back(cpg);
 }
 
-//暗杠
+// 暗杠
 bool can_an_gang(char* cards, char card_index, int left_cards_num)
 {
 	if (left_cards_num == 0) 
@@ -191,7 +191,7 @@ void an_gang(char* cards, std::vector<CHI_PENG_GANG>& chi_peng_gang,
 	chi_peng_gang.push_back(cpg);
 }
 
-//点杠
+// 点杠
 bool can_dian_gang(char* cards, char card_index, int left_cards_num)
 {
 	if (left_cards_num == 0) 
@@ -215,7 +215,7 @@ void dian_gang(char* cards, std::vector<CHI_PENG_GANG>& chi_peng_gang,
 	chi_peng_gang.push_back(cpg);
 }
 
-//加杠
+// 加杠
 bool can_jia_gang(char* cards, std::vector<CHI_PENG_GANG>& chi_peng_gang, 
 					char card_index, int left_cards_num)
 {
