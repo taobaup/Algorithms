@@ -1,3 +1,7 @@
+英文链接: https://leetcode.com/problems/linked-list-cycle/  
+中文链接: https://leetcode-cn.com/problems/linked-list-cycle/
+
+
 >给定一个链表，判断其是否有环(不使用额外空间)   
 若不考虑空间复杂度，则可借助指针数组或哈希表   
 判断链表结点是否重新出现   
