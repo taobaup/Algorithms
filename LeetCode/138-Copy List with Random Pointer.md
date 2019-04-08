@@ -1,3 +1,7 @@
+英文链接: https://leetcode.com/problems/copy-list-with-random-pointer/  
+中文链接: https://leetcode-cn.com/problems/copy-list-with-random-pointer/
+
+
 ```
 // Definition for singly-linked list with a random pointer.
 struct RandomListNode {
