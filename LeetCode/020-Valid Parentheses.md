@@ -2,7 +2,6 @@
 中文链接: https://leetcode-cn.com/problems/valid-parentheses/
 
 
-
 >括号匹配  
 利用栈后进先出的特点即可   
 时间复杂度为O(n)，空间复杂度也为O(n)   
