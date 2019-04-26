@@ -14,7 +14,7 @@ kn = kn-1 % 0!
 a1 a2 .. an-1 an
 
 
-C++:
+
 ```
 class Solution {
 public:
