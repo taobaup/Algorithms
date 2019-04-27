@@ -50,7 +50,7 @@ HUISU_ITEM* get_huisu_ops(char cur_num, int* op_num)
 	}
 }
 
-// �����Ƿ������������
+// 字牌是否满足胡牌条件
 bool check_zi(char* cards, bool& eye)
 {
 	for (int i = 28; i <= 34; ++i) {
@@ -72,7 +72,7 @@ bool cai_cur(int cur, char* cards, bool& eye)
 
 	int n = cards[cur];
 	if (n == 0) return cai_cur(cur + 1, cards, eye);
-	// ��ȡ���пɲ�����
+	// 获取所有可拆解情况
 	int op_num = 0;
 	HUISU_ITEM* p = NULL;
 	p = get_huisu_ops(n, &op_num);
@@ -101,7 +101,7 @@ bool cai_cur(int cur, char* cards, bool& eye)
 	return false;
 }
 
-//�����cards�Ǻ��оŸ�Ԫ�ص�����
+//这里的cards是含有九个元素的数组
 bool check_color(char* cards, bool& eye)
 {
 	int sum = 0;
@@ -117,28 +117,23 @@ bool check_color(char* cards, bool& eye)
 }
 
 bool can_hu_huisu(char* cards) {
-	// �л��Ʋ��ܺ�
+	// 有花牌不能胡
 	for (int i = 35; i <= 42; ++i) {
 		if (cards[i] != 0) return false;
 	}
 	bool eye = false;
 
-	// ��鶫���ϱ��з���
+	// 检查东西南北中发白
 	if (!check_zi(cards, eye)) return false;
 
-	//�����
+	//检查万
 	if (!check_color(&cards[1], eye)) return false;
 
-	//�����
+	//检查条
 	if (!check_color(&cards[10], eye)) return false;
 
-	//���Ͳ
+	//检查筒
 	if (!check_color(&cards[19], eye)) return false;
 
 	return true;
 }
-
-
-
-
-
