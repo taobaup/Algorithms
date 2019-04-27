@@ -1,4 +1,7 @@
-C++:
+
+英文链接: https://leetcode.com/problems/rotate-list/  
+中文链接: https://leetcode-cn.com/problems/rotate-list/
+
 ```
 // Definition for singly-linked list.
 struct ListNode {
