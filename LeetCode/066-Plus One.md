@@ -1,4 +1,7 @@
-C++:
+
+英文链接: https://leetcode.com/problems/plus-one/  
+中文链接: https://leetcode-cn.com/problems/plus-one/
+
 
 ```
 class Solution {
