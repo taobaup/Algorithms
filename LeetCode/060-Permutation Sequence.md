@@ -1,3 +1,8 @@
+
+英文链接: https://leetcode.com/problems/permutation-sequence/  
+中文链接: https://leetcode-cn.com/problems/permutation-sequence/
+
+```
 a1 = k / (n - 1)!  
 k1 = k % (n - 1)!
 
@@ -12,7 +17,7 @@ an = kn-1 / 0!
 kn = kn-1 % 0! 
 
 a1 a2 .. an-1 an
-
+```
 
 
 ```
