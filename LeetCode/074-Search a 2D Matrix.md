@@ -1,3 +1,9 @@
+
+
+英文链接: https://leetcode.com/problems/search-a-2d-matrix/  
+中文链接: https://leetcode-cn.com/problems/search-a-2d-matrix/
+
+
 >编写一个搜索m*n矩阵中的值的有效算法，该矩阵具有以下性质：   
 每行中的整数从左到右排序。   
 每行的第一个整数大于前一行的最后一个整数。
