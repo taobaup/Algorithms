@@ -1,4 +1,6 @@
-C++:
+
+英文链接: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/  
+中文链接: https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/
 
 ```
 class Solution {
