@@ -1,3 +1,8 @@
+
+英文链接: https://leetcode.com/problems/gray-code/  
+中文链接: https://leetcode-cn.com/problems/gray-code/
+
+
 ```
 Int    Gray Code    Binary
  0  　　  000        000
