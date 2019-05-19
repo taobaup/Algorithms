@@ -43,8 +43,7 @@ bool hu_pengpeng(char* cards)
 	int eye_num = 0;
 	for (int i = 1; i <= 34; ++i)
 	{
-		if (cards[i] == 1 ||
-				cards[i] == 4)
+		if (cards[i] == 1 || cards[i] == 4)
 			return false;
 
 		if (cards[i] == 2)
@@ -73,8 +72,7 @@ bool hu_dandiao(char* cards)
 
 // 十三幺九
 // 一万、九万、一筒、九筒、
-// 一条、九条、东南西北中发白
-// 各一张，然后其中有一种牌是一对
+// 一条、九条、东南西北中发白各一张，然后其中有一种牌是一对
 bool hu_13_1_9(char* cards)
 {
 	int sum = 0;
@@ -124,6 +122,7 @@ bool qia(char* cards, char hu_index)
 	if (hu_index == 1 || hu_index == 10 
 		 || hu_index == 19)
 		return false;
+	
 	if (hu_index == 9 || hu_index == 18 
 		 || hu_index == 27)
 		return false;
@@ -193,9 +192,7 @@ bool is_13_lan2(char* cards)
 		int sum = 0;
 		int last = -1;
 
-		for (int j = begin + 1;
-				j <= begin + 9;
-				++j)
+		for (int j = begin + 1; j <= begin + 9; ++j)
 		{
 			sum += cards[j];
 
