@@ -1,3 +1,8 @@
+
+英文链接: https://leetcode.com/problems/longest-consecutive-sequence/  
+中文链接: https://leetcode-cn.com/problems/longest-consecutive-sequence/
+
+
 >在O(n)的时间复杂度内找出数组中最长连续序列的长度   
 如数组[100,15,200,17,120,16,18]，其最长连续序列为4   
 时间复杂度要求O(n)，因此不能直接排序   
