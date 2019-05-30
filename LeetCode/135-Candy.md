@@ -1,3 +1,7 @@
+
+英文链接: https://leetcode.com/problems/candy/  
+中文链接: https://leetcode-cn.com/problems/candy/
+
 ```
 class Solution {
 public:
