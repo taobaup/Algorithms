@@ -1,3 +1,9 @@
+
+
+英文链接: https://leetcode.com/problems/gas-station/  
+中文链接: https://leetcode-cn.com/problems/gas-station/
+
+
 sum判断汽车能否顺利走完start~i段的路程，否则应从下一个汽车站出发  
 total将所有gas[i]-cost[i]相加，判断汽车能否走完一个环路
 
