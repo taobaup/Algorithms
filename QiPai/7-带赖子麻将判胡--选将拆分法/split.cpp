@@ -23,7 +23,7 @@ bool split::get_hu_info(char* cards, char cur_card, char gui_index)
 			if (gui_num<0) {
 				return false;
 			}
-		    eye_num = 1;
+		    	eye_num = 1;
 			eye_tbl[0] = i;
 			empty = -1;
 			break;
