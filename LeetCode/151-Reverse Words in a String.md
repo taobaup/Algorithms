@@ -1,3 +1,7 @@
+
+英文链接: https://leetcode.com/problems/reverse-words-in-a-string/  
+中文链接: https://leetcode-cn.com/problems/reverse-words-in-a-string/
+
 >字符串反转   
 尝试在 O (1) 空间中就地解决它  
 先将整个字符串翻转一次，再分别翻转每一个单词   
