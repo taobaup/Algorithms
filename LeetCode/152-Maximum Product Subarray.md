@@ -1,3 +1,9 @@
+
+
+英文链接: https://leetcode.com/problems/maximum-product-subarray/  
+中文链接: https://leetcode-cn.com/problems/maximum-product-subarray/
+
+
 >f(k) = max( f(k-1) * A[k], A[k], g(k-1) * A[k] )  
 g(k) = min( g(k-1) * A[k], A[k], f(k-1) * A[k] )
 
