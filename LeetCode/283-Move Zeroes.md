@@ -1,4 +1,6 @@
-C++:
+
+英文链接: https://leetcode.com/problems/move-zeroes/  
+中文链接: https://leetcode-cn.com/problems/move-zeroes/
 
 
 ```
