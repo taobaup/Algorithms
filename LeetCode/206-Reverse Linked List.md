@@ -1,4 +1,6 @@
-C++:
+
+英文链接: https://leetcode.com/problems/reverse-linked-list/  
+中文链接: https://leetcode-cn.com/problems/reverse-linked-list/
 
 ```
 // Definition for singly-linked list.
