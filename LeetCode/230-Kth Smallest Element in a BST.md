@@ -1,4 +1,6 @@
-C++:
+
+英文链接: https://leetcode.com/problems/kth-smallest-element-in-a-bst/  
+中文链接: https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
 
 ```
 // Definition for a binary tree node.
