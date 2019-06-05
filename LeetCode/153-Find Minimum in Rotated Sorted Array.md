@@ -1,14 +1,6 @@
-(i.e.,  [0,1,2,4,5,6,7] might become  [4,5,6,7,0,1,2]).  
-You may assume no duplicate exists in the array.
 
-Example 1:  
-Input: [3,4,5,1,2]   
-Output: 1
-
-Example 2:  
-Input: [4,5,6,7,0,1,2]  
-Output: 0
-
+英文链接: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/  
+中文链接: https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
 
 
 ```
