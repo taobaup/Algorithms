@@ -3,7 +3,6 @@
 拆分法(不带赖子）
 
 代码路径：https://github.com/yuanfengyun/qipai/tree/master/mjlib_lua/base_split
-https://github.com/yuanfengyun/qipai_algorithm/blob/master/lesson/split/hulib.cpp
 
 1、收集能做将的所有牌作为集合A（优化手段，牌堆为3*n+2的牌才能产生将）
 
