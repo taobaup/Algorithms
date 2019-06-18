@@ -310,8 +310,3 @@ function M.can_hu(cards,i,needeye,eye,totalgui)
 end
 
 return M
-
-
-
-
-
