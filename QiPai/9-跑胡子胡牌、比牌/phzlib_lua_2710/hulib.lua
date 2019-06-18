@@ -278,8 +278,3 @@ function M.can_hu(cards,i,need_eye)
 end
 
 return M
-
-
-
-
-
