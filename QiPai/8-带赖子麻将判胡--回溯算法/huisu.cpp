@@ -126,9 +126,9 @@ int cai_cur(int cur, char* cards, bool& eye, int total_gui)
 		cards[cur] = old_cur;
 		cards[cur + 1] = old_cur1;
 		cards[cur + 2] = old_cur2;
-		if (result!=1000) {
+		if (result != 1000) {
 			eye = e;
-			return gui+result;
+			return gui + result;
 		}
 	}
 	return 1000;
@@ -153,12 +153,12 @@ int check_color(char* color_cards, bool& eye,int total_gui)
 		if (eye && yu == 2) return 1000;
 	}
 
-	for (int i = 0; i <= total_gui;++i)
+	for (int i = 0; i <= total_gui; ++i)
 	{
 		int yu = (i + sum) % 3;
 		if (yu == 1) continue;
 		bool cur_eye = eye;
-		if (cai_cur(0, cards, cur_eye,i)!=1000) {
+		if (cai_cur(0, cards, cur_eye, i) != 1000) {
 			eye = cur_eye;
 			return i;
 		}
@@ -185,11 +185,11 @@ bool can_hu_huisu(char* hand_cards, int gui_index1, int gui_index2){
 
 	// 检查东西南北中发白
 	int need_gui1 = check_zi(cards, gui_num, eye);
-	if(need_gui1>gui_num) return false;
+	if(need_gui1 > gui_num) return false;
 
 	//检查万
 	int need_gui2 = check_color(&cards[0], eye, gui_num - need_gui1);
-	if (need_gui1+need_gui2>gui_num) return false;
+	if (need_gui1 + need_gui2 > gui_num) return false;
 
 	//检查条
 	int need_gui3 = check_color(&cards[9], eye, gui_num - need_gui1 - need_gui2);
