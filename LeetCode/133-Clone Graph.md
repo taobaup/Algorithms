@@ -8,7 +8,6 @@ struct UndirectedGraphNode {
     vector<UndirectedGraphNode *> neighbors;
     UndirectedGraphNode(int x) : label(x) {};
 };
-
 ```
 
 
