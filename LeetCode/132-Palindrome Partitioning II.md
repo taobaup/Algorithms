@@ -1,4 +1,4 @@
-英文链接: https://leetcode.com/problems/palindrome-partitioning/  
+英文链接: https://leetcode.com/problems/palindrome-partitioning-ii/ 
 中文链接: https://leetcode-cn.com/problems/palindrome-partitioning-ii/ 
 
 
