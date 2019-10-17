@@ -1,5 +1,5 @@
 英文链接: https://leetcode.com/problems/palindrome-partitioning/  
-中文链接: https://leetcode-cn.com/problems/palindrome-partitioning/ 
+中文链接: https://leetcode-cn.com/problems/palindrome-partitioning-ii/ 
 
 
 ```
