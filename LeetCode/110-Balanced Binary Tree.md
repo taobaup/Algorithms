@@ -51,7 +51,7 @@ public:
             return false;
         }
 
-        else return true;
+        return true;
     }
 
 private:
