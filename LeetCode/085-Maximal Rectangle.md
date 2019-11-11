@@ -1,43 +1,6 @@
 英文链接: https://leetcode.com/problems/maximal-rectangle/  
 中文链接: https://leetcode-cn.com/problems/maximal-rectangle/
 
-left数组表示左边界是1的位置，  
-right数组表示右边界是1的位置，  
-那么对于任意一行的第j个位置，矩形为(right[j] - left[j]) * height[j]
-
-```
-[
-  ["1","0","1","0","0"],
-  ["1","0","1","1","1"],
-  ["1","1","1","1","1"],
-  ["1","0","0","1","0"]
-]
-
-i: 0
-col     0       1       2       3       4
-left    0       0       2       0       0
-right   1       5       3       5       5
-height  1       0       1       0       0
-
-i: 1
-col     0       1       2       3       4
-left    0       0       2       2       2
-right   1       5       3       5       5
-height  2       0       2       1       1
-
-i: 2
-col     0       1       2       3       4
-left    0       0       2       2       2
-right   1       5       3       5       5
-height  3       1       3       2       2
-
-i: 3
-col     0       1       2       3       4
-left    0       0       0       3       0
-right   1       5       5       4       5
-height  4       0       0       3       0
-```
-
 
 ```
 class Solution {
